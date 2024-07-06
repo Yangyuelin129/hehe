@@ -1,0 +1,206 @@
+.leftimg {
+    float: left;
+    margin-right: 5px;
+    margin-bottom: 5px;
+}
+
+.rightimg {}
+
+h2 {
+    color: #438E56;
+    text-align: left;
+    font-size: 20px;
+    behavior: url(css/PIE.htc);
+    padding: 0px;
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: 5px;
+    margin-left: 0px;
+}
+
+h3 {
+    color: #000000;
+    font-size: 16px;
+    behavior: url(css/PIE.htc);
+    padding: 0px;
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: 5px;
+    margin-left: 0px;
+}
+
+/* page */
+
+.page {
+    TEXT-ALIGN: center;
+    /* 2014.10.30 Armstrong �ξ�ҭק諸�����Υ\�� - start */
+    /*width: 96%;*/
+    width: 100%;
+    /* 2014.10.30 Armstrong �ξ�ҭק諸�����Υ\�� - end */
+    color: #666666;
+    font-weight: bold;
+    padding: 2%;
+    float: left;
+    font-size: 11px;
+}
+
+.page a {
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    border-radius: 50px;
+    background-color: #FFFFFF;
+    color: #333333;
+    letter-spacing: 1px;
+    behavior: url(css/PIE.htc);
+    text-decoration: none;
+    height: 16px;
+    width: 16px;
+    padding: 2px;
+    margin-right: 5px;
+    font-weight: normal;
+    float: left;
+}
+
+.page a:hover {
+    text-shadow: 0 1px 1px rgba(0, 0, 0, .5);
+    font-weight: bold;
+    color: #FFFFFF;
+    background-color: #FF6633;
+}
+
+.page a.current {
+    text-shadow: 0 1px 1px rgba(0, 0, 0, .5);
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    border-radius: 50px;
+    background-color: #4B975F;
+    color: #FFFFFF;
+    letter-spacing: 1px;
+    behavior: url(css/PIE.htc);
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* table */
+
+.datetable {
+    width: 100%;
+    margin-bottom: 10px;
+    border: 1px solid #CCCCCC;
+    background-color: #EEEFFF;
+}
+
+.datetable caption {
+    color: #FFFFFF;
+    background-color: #757575;
+    letter-spacing: 1px;
+    text-shadow: 0 2px 2px rgba(0, 0, 0, .3);
+    text-align: left;
+    padding-left: 10px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    font-weight: bold;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: #505050;
+}
+
+.datetable th {
+    color: #666666;
+    padding-top: 5px;
+    text-align: center;
+    _border-top: 1px solid #999999;
+    _border-right: 1px solid #999999;
+    background-color: #FFFFFF;
+    /*background-image: url(../images/table-th.jpg);*/
+    background-image: linear-gradient(to top, #EFEFEF, #DADADA);
+    background-position: left top;
+    font-size: 13px;
+    letter-spacing: 1px;
+    border-top-width: 2px;
+    border-right-width: 1px;
+    border-bottom-width: 1px;
+    border-left-width: 1px;
+    border-top-style: solid;
+    border-right-style: solid;
+    border-bottom-style: solid;
+    border-left-style: solid;
+    border-top-color: #FFFFFF;
+    border-right-color: #FFFFFF;
+    border-bottom-color: #FFFFFF;
+    border-left-color: #FFFFFF;
+}
+
+.datetable td {
+    color: #555555;
+    _border-top: 1px solid #d4d4d4;
+    _border-right: 1px solid #d4d4d4;
+    padding-top: 3px;
+    padding-right: 3px;
+    padding-bottom: 3px;
+    padding-left: 5px;
+    font-size: 12px;
+    border-top-width: 1px;
+    border-right-width: 1px;
+    border-bottom-width: 1px;
+    border-left-width: 1px;
+    border-top-style: solid;
+    border-right-style: solid;
+    border-bottom-style: solid;
+    border-left-style: solid;
+    border-top-color: #FFFFFF;
+    border-right-color: #FFFFFF;
+    border-bottom-color: #FFFFFF;
+    border-left-color: #FFFFFF;
+}
+
+.datetable tr.altrow {
+    background-color: #E0E9ED;
+}
+
+.datetable td table {
+    border-top-style: none;
+    border-right-style: none;
+    border-bottom-style: none;
+    border-left-style: none;
+}
+
+.jtextfill {
+    -webkit-text-size-adjust: none;
+    font-size: 1px;
+}
+
+.botton01 {
+    color: #FFFFFF;
+    text-align: center;
+    padding-top: 5px;
+    padding-right: 8px;
+    padding-bottom: 3px;
+    padding-left: 8px;
+    text-decoration: none;
+    letter-spacing: 2px;
+    /*background-image: url(../images/bt-bg2.jpg);*/
+    background-image: linear-gradient(to top, #426C16, #7BAF29);
+    background-repeat: repeat-x;
+    background-position: left top;
+    border: 1px solid #FFFFFF;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    -webkit-box-shadow: #888 1px 2px 3px;
+    -moz-box-shadow: #888 1px 2px 3px;
+    box-shadow: #888 1px 2px 3px;
+    behavior: url(css/PIE.htc);
+}
+
+.botton01:hover {
+    /*background-image: url(../images/bt-bg.jpg);*/
+    background-image: linear-gradient(to top, #FF4700, #FEA026);
+    background-repeat: repeat-x;
+}
+
+.botton01:active {
+    position: relative;
+    top: 2px;
+    left: 2px;
+}

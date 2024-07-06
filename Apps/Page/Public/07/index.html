@@ -1,0 +1,1820 @@
+
+
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="zh-tw">
+<head>
+
+    <!--google analytics include-->
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-1FN766RPR4"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'G-1FN766RPR4');
+    </script>
+    <!--google analytics include-->
+
+    <meta http-equiv="EXPIRES" content="0" /><meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><meta http-equiv="pragma" content="no-cache" /><meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <meta name="description" content="113學年度中投區高中職免試入學由埔里高工承辦，本網站由政高公司建置，提供免試、完免、技優、變更就學區及適性入學等資訊，亦為國中端集體報名平台。,政高,jhenggao" />
+    <meta name="keywords" content="113學年度中投區高中職免試入學由埔里高工承辦，本網站由政高公司建置，提供免試、完免、技優、變更就學區及適性入學等資訊，亦為國中端集體報名平台。,政高,jhenggao" />
+
+
+    <title>
+	113學年度中投區免試入學系統
+</title>
+
+    <link rel="icon" href="../../../../images/favicon.ico" type="image/x-icon" />
+    <link rel="shortcut icon" href="../../../../images/favicon.ico" type="image/x-icon" />
+    <link rel="icon" href="../../../../images/favicon.ico" type="image/x-icon" />
+    <link rel="shortcut icon" href="../../../../images/favicon.ico" type="image/x-icon" />
+
+    <!-- Bootstrap core CSS -->
+    <link href="../../../../Content/bootstrap.min.css" rel="stylesheet" type="text/css" />
+
+    <link rel="stylesheet" href="../../../../Css/font-awesome.min.css" />
+
+    <script type="text/javascript" src="../../../../Scripts/linq.min.js"></script>
+    <script type="text/javascript" src="../../../../Scripts/jquery-3.7.1.min.js"></script>
+    <script type="text/javascript" src="../../../../Scripts/bootstrap.min.js"></script>
+    
+
+    <!--JSLINQ include-->
+    <script type="text/javascript" src="../../../../Scripts/JSLINQ.js"></script>
+    <!--JSLINQ include-->
+
+    <!--Select2 include-->
+    <!-- http://fk.github.io/select2-bootstrap-css/master.html        -->
+    <link href="../../../../Content/css/select2.css" rel="stylesheet" type="text/css" />
+    <script type="text/javascript" src="../../../../Scripts/select2.min.js"></script>
+    <script type="text/javascript" src="../../../../Scripts/Select2-locales/select2_locale_zh-TW.js"></script>
+    <link href="../../../../Content/select2-bootstrap.css" rel="stylesheet" type="text/css" />
+    <!--<link rel="stylesheet" href="http://fk.github.io/select2-bootstrap-css/css/select2-bootstrap.css" />-->
+    <!--Select2 include-->
+
+    <!--bootstrap-multiselect include-->
+    <!-- http://davidstutz.github.io/bootstrap-multiselect/        -->
+    <link href="../../../../Content/css/select2.css" rel="stylesheet" type="text/css" />
+    <script type="text/javascript" src="../../../../Scripts/bootstrap-multiselect.js"></script>
+    <link href="../../../../css/bootstrap-multiselect.css" rel="stylesheet" type="text/css" />
+    <!--bootstrap-multiselect include-->
+
+    <!--bootbox include-->
+    <!--http://bootboxjs.com/-->
+    <!--http://hisune.com/post/view/17/bootstrap-plugin-bootbox-and-custom-width-dialog-->
+    <script type="text/javascript" src="../../../../Scripts/bootbox.js"></script>
+    <!--bootbox include-->
+
+    <!--bootstrap-datetimepicker include-->
+    <!-- http://eonasdan.github.io/bootstrap-datetimepicker/ -->
+    <!-- http://eternicode.github.io/bootstrap-datepicker/ -->
+    <script type="text/javascript" src="../../../../Scripts/moment-with-locales.min.js"></script>
+    <script type="text/javascript" src="../../../../Scripts/bootstrap-datetimepicker.min.js"></script>
+    <link href="../../../../Content/bootstrap-datetimepicker.min.css" rel="stylesheet" type="text/css" />
+
+    <script>
+
+</script>
+    <!--bootstrap-datetimepicker include-->
+
+    <!--設定IE版本兼容性-->
+
+    <!-- Just for debugging purposes. Don't actually copy this line! -->
+    <!--[if lt IE 9]><script src="../../docs-assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+    <![endif]-->
+
+    <!--[if lte IE 8]>
+    <script>
+        document.createElement('ng-include');
+        document.createElement('ng-pluralize');
+        document.createElement('ng-view');
+        document.createElement('ng:include');
+        document.createElement('ng:pluralize');
+        document.createElement('ng:view');
+        </script>
+    <![endif]-->
+
+    <!--[if lte IE 8]>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/json3/3.2.4/json3.min.js"></script>
+    <![endif]-->
+
+    <script type="text/javascript">
+
+        var alertFallback = false;
+        if (typeof console === "undefined" || typeof console.log === "undefined") {
+            console = {};
+            if (alertFallback) {
+                console.log = function (msg) {
+                    alert(msg);
+                };
+            } else {
+                console.log = function () { };
+            }
+        }
+        if (typeof console === "undefined" || typeof console.dir === "undefined") {
+            console = {};
+            if (alertFallback) {
+                console.dir = function (msg) {
+                    alert(msg);
+                };
+            } else {
+                console.dir = function () { };
+            }
+        }
+    </script>
+
+    <!--設定IE版本兼容性-->
+    <!--2014.12.23 Armstrong 修改路徑 -->
+    <link href="../../../../css/layout_07.css" rel="stylesheet" type="text/css" />
+    <link href="../../../../css/style.css" rel="stylesheet" type="text/css" />
+    <link href="../../../../css/menu.css" rel="stylesheet" type="text/css" />
+
+    <!--心測中心造字檔-->
+    <!--http://blog.xuite.net/tolarku/blog/247346513-%E7%B6%B2%E8%B7%AF%E5%AD%97%E5%9E%8B+Web+Font+-+CSS+-+@font-face-->
+    <!--http://fontforge.github.io/en-US/-->
+    <!--http://blogger.gtwang.org/2014/01/web-font-css-font-face.html-->
+    <!--http://lyhpcha.pixnet.net/blog/post/255845371-%E7%94%A8fontforge%E8%87%AA%E8%A8%82%E5%AD%97%E5%9E%8B-->
+    <style type="text/css">
+        /*
+        @font-face {
+            font-family: 'WebFont1';
+            src: url(../../../../fonts/DFKaiShu-NTNU_2023.woff);
+            src: url(../../../../fonts/DFKaiShu-NTNU_2023.woff) format('woff'), url(../../../../fonts/DFKaiShu-NTNU_2023.ttf) format('truetype');
+        }
+        */
+
+        
+
+        .心測字型 {
+            font-family: '標楷體','WebFont1';
+            font-weight: bold;
+        }
+    </style>
+    <!--心測中心造字檔-->
+
+    <script type="text/javascript">
+
+
+        function PageNotFoundCtrl() {
+
+        };
+
+        //var Ctrl, app;
+
+        (function () {
+
+            if (typeof (angular) == "undefined")
+                return;
+
+            app = angular.module('MyApp', [
+                //'PageCtrl',
+                //'ngSanitize'
+            ])
+
+            app.factory('HttpInterceptor', ['$q', HttpInterceptor]);
+            function HttpInterceptor($q) {
+
+                //bootbox訊息狀態初始值設定
+                //bootbox.setDefaults({ animate: false, });
+
+                return {
+                    request: function (config) {
+                        return config;
+                    },
+                    requestError: function (err) {
+                        return $q.reject(err);
+                    },
+                    response: function (res) {
+                        return res;
+                    },
+                    responseError: function (err) {
+                        if (-1 === err.status) {
+                            // 遠端伺服器無響應
+                        } else if (500 === err.status) {
+                            // 處理各類自定義錯誤
+                        } else if (501 === err.status) {
+                            // ...
+                        }
+                        return $q.reject(err);
+                    }
+                };
+            }
+            // 新增對應的 Interceptors
+            app.config(['$httpProvider', function ($httpProvider) {
+                $httpProvider.interceptors.push(HttpInterceptor);
+            }]);
+
+
+        }).call(this);
+
+
+        /*
+        (function () {
+
+            if (typeof (angular) == "undefined")
+                return;
+
+            app = angular.module('MyApp', [
+                'ngRoute',
+                //'PageCtrl',
+                //'ngSanitize'
+            ]).config(['$httpProvider', function ($httpProvider) {
+
+                //bootbox訊息狀態初始值設定
+                bootbox.setDefaults({ animate: false, });
+
+                $httpProvider.defaults.headers.common["X-Requested-With"] = 'XMLHttpRequest';
+
+                // 設定如果ajax遇到401要做什麼事
+                var interceptor = ['$q', '$injector', function ($q, $injector) {
+
+                    function success(response) {
+                        return response;
+                    }
+
+                    function error(response) {
+
+                        //console.log(response.status);
+
+                        if (response.status === 401) {
+                            alert("閒置過久，請重新登入");
+                            location.reload();
+                        }
+                        //else if (response.status === 404) {
+                        //    $('#myModal').modal('show');
+                        //    $('#Div_AlertMsg').html("頁面不存在！");
+                        //    //location.reload();
+                        //}
+                        else {
+                            return $q.reject(response);
+                        }
+                    }
+
+                    return function (promise) {
+                        return promise.then(success, error);
+                    };
+                }];
+
+                $httpProvider.responseInterceptors.push(interceptor);
+            }])
+                .factory('$qq', ['$q', function ($q) {
+
+                    $q.defer2 = $q.defer();
+                    return $q;
+                }])
+
+        }).call(this);
+        */
+
+        /*
+        var app = angular.module('MyApp', [
+              'ngRoute'
+        ]).config(['$httpProvider', function ($httpProvider) {
+            $httpProvider.defaults.headers.common["X-Requested-With"] = 'XMLHttpRequest';
+
+            // 設定如果ajax遇到401要做什麼事
+            var interceptor = ['$q', '$injector', function ($q, $injector) {
+
+                function success(response) {
+                    return response;
+                }
+
+                function error(response) {
+                    if (response.status === 401) {
+                        alert("閒置過久，請重新登入");
+                        location.reload();
+                    }
+                    else {
+                        return $q.reject(response);
+                    }
+                }
+
+                return function (promise) {
+                    return promise.then(success, error);
+                };
+            }];
+
+            $httpProvider.responseInterceptors.push(interceptor);
+        }])
+      .factory('$qq', ['$q', function ($q) {
+
+          $q.defer2 = $q.defer;
+          return $q;
+      }])
+        //.config(function ($routeProvider, $locationProvider) {
+        //    //$routeProvider
+        //    //    .when('/', { controller: 'HomeCtrl', templateUrl: 'Home/Content', caseInsensitiveMatch: true })
+        //    //    .otherwise({ controller: PageNotFoundCtrl, templateUrl: 'Home/PageNotFound', caseInsensitiveMatch: true });
+
+        //    $locationProvider.html5Mode(true);
+
+        //})
+        ;
+        */
+    </script>
+
+    <!--CtrlFunctions include-->
+    
+    <!--自訂分頁功能-->
+    <script type="text/javascript" src="../../../../js/TableOption.js"></script>
+    <script type="text/javascript" src="../../../../js/JQueryToolsFuntion.js"></script>
+    <!--CtrlFunctions include-->
+
+
+    <link rel="stylesheet" href="../../../../Css/StyleSheet.css" />
+
+    <!--2013.12.28 Armstrong 新增Url參數-->
+    <script type="text/javascript" charset="utf-8">
+        //參數設定
+        var LoginPage_Url = "../../../../index.aspx"
+        var action_Url = "../../../";//Ajax主路徑
+        var pageAP_Url = "../../../";//Page/AP主路徑
+        var pageMember_Url = "../../../";//Page/Member主路徑
+        var page_Url = "../../../";//Page主路徑
+        var FrontID = "ctl00_ctl00_ContentPlaceHolder1_ContentPlaceHolder1_";
+        var FrontName = "ctl00$ctl00$ContentPlaceHolder1$ContentPlaceHolder1$";
+    </script>
+
+    <script type="text/javascript">
+        var seedset = 100;
+
+        function scroll(seed) {
+
+            var m1 = "                              國民教育十二年，適性學習展笑顏";
+            var m2 = "                              國教十二學習樂，未來看我展特色";
+            var m3 = "                              優質國教十二年，適性揚才路多元";
+            var m4 = "                              優質國教十二年，齊心闊步邁向前";
+            var m5 = "                              邁向國教十二年，開創教育新紀元";
+            var msg = m1 + m2 + m3 + m4 + m5;
+            var out = " ";
+            var c = 1;
+
+            if (seed > seedset) {
+                seed--;
+                var cmd = "scroll(" + seed + ")";
+                timerTwo = window.setTimeout(cmd, seedset);
+            }
+            else if (seed <= seedset && seed > 0) {
+                //for (c=0 ; c < seed ; c++) {
+                //	out+=" ";
+                //}
+                out += msg;
+                seed--;
+                var cmd = "scroll(" + seed + ")";
+                //window.status = out;
+                //document.title = out;
+                timerTwo = window.setTimeout(cmd, seedset);
+            } else if (seed <= 0) {
+                if (-seed < msg.length) {
+                    out += msg.substring(-seed, msg.length);
+                    seed--;
+                    var cmd = "scroll(" + seed + ")";
+                    //window.status = out;
+                    //document.title = out;
+                    if (document.getElementById("div1") != null)
+                        document.getElementById("div1").innerText = out;
+                    timerTwo = window.setTimeout(cmd, seedset);
+                }
+                else {
+                    window.status = " ";
+                    document.title = " ";
+                    timerTwo = window.setTimeout("scroll(0)", 7);
+                }
+            }
+        }
+
+        function RunScroll() {
+            timerONE = window.setTimeout('scroll(0)', seedset);
+        }
+
+        function StopScroll() {
+            clearTimeout(timerONE);
+            clearTimeout(timerTwo);
+        }
+
+        timerONE = window.setTimeout('scroll(0)', seedset);
+    </script>
+
+    <!--2016.06.16 Armstrong 新增關閉視窗時提出詢問要不要登出 - start -->
+    <script type="text/javascript">
+        var Area_NoAndQuantity_No = '01';
+    </script>
+    
+    <!--2016.06.16 Armstrong 新增關閉視窗時提出詢問要不要登出 - end -->
+
+    <!--2016.06.16 Armstrong 新增時間到了詢問是否繼續使用系統 - start -->
+    <script type="text/javascript">
+        var countdownnumber = 0;
+
+        var wishCountdown = -1;
+        var wishCountdownText = '離志願選填截止還有10分鐘，請把握時間！！';
+        var IswishCountdown_NeedReed = '0';
+        var countdownid, x;
+        var logoutTimer = 600;//單位秒 
+        var BootboxConfirmReuseMsg = null;
+        var IsBootboxConfirmReuseMsgOpen = false;
+        var WaitingGetReacquireTime = 300;//等待重新取得正確Session還剩多久秒數失效
+        var IsWaitWorking = 0;//等待確認繼續使用中
+        function DisplaySessionTimeout() {
+            return;
+            clearInterval(countdownid);
+            GetUserSessionDifferenceDateTime(false);//取得Session還剩多久秒數失效
+
+            if (countdownnumber == -1) {//未登入不倒數
+                return;
+            }
+            x = document.getElementById("countdown");
+            if (x != null) {
+                x.innerHTML = countdownnumber;
+            }
+            countdownnumber--;
+            countdownid = window.setInterval(countdownfunc, 1000);
+        }
+        function countdownfunc() {
+            GetUserSessionDifferenceDateTime();
+
+            if (x != null) {
+                x.innerHTML = countdownnumber;
+            }
+            if (countdownnumber <= 0) {
+                CloseBootboxConfirmReuseMsg();
+                clearInterval(countdownid);
+                window.location ="../LoginMessageReLogin.aspx";
+            }
+            else if (countdownnumber - logoutTimer <= 0) {
+                //console.dir(BootboxConfirmReuseMsg);
+                if (IsBootboxConfirmReuseMsgOpen == false && IsWaitWorking == 0) {
+                    IsBootboxConfirmReuseMsgOpen = true;
+                    BootboxConfirmReuseMsg = bootbox.confirm({
+                        id: "BootboxConfirmReuseMsg",
+                        message: "您未持續使用系統已經超過一段時間，為保護您的帳戶安全，系統將於 <span id='show-time' style='font-size:20px;font-weight:bold;color:firebrick;'></span> 秒後自動登出！",
+                        buttons: {
+                            confirm: {
+                                label: '繼續操作',
+                                className: 'btn-success'
+                            },
+                            cancel: {
+                                label: '登出',
+                                className: 'btn-danger'
+                            }
+                        },
+                        closeButton: false,
+                        callback: function (result) {
+                            IsBootboxConfirmReuseMsgOpen = false;
+                            if (result == true) {
+                                IsWaitWorking = 1;
+                                ReuseSession();
+                                countdownnumber = 0;
+                                GetUserSessionDifferenceDateTime(false);
+                            }
+                            else {
+                                CloseBootboxConfirmReuseMsg();
+                                clearInterval(countdownid);
+                                window.location ="../Logout.aspx";
+                                //document.location.href="../Logout.aspx";
+                            }
+
+                        }
+                    });
+
+                    //console.dir(BootboxConfirmReuseMsg);
+                    //console.dir($('#BootboxConfirmReuseMsg'));
+                }
+
+            }
+            else if (countdownnumber - logoutTimer >= 0) {
+                CloseBootboxConfirmReuseMsg();
+            }
+
+            //if (wishCountdown == 0 || IswishCountdown_NeedReed == "1") {
+            if (wishCountdown == 0) {
+                IswishCountdown_NeedReed = "0";
+                bootbox.alert('<h1 style="color:red">' + '<b>' + wishCountdownText + '</b>' + '</h1>');
+            }
+            $('#show-time').text(countdownnumber);
+            countdownnumber--;
+        }
+        function ReuseSession() {
+            $.ajax({
+                type: "POST",
+                url: '../../../../ReuseSession.ashx',
+                dataType: "json",
+                async: false,
+                success: function (rlt) {
+                    if (rlt.success == true) {
+                        logoutTimer = rlt.SessionLostRemindTime;
+                    }
+                    //alert(rlt.success);
+
+                }
+            });
+        }
+        //取得Session還剩多久秒數失效
+        function GetUserSessionDifferenceDateTime(Isasync) {
+            if (Isasync != false)
+                Isasync = true;
+
+            //if((countdownnumber < 0
+            //    || countdownnumber == 0
+            //    || countdownnumber % waitinggetreacquiretime == 0) == false)
+            //{
+            //    return;
+            //}
+
+            $.ajax({
+                type: "POST",
+                url: '../../../../UserSessionDifferenceDateTime.ashx',
+                dataType: "json",
+                async: Isasync,
+                success: function (rlt) {
+                    if (rlt.success == true) {
+                        countdownnumber = rlt.countdownnumber;
+                        wishCountdown = rlt.wishCountdownCheck;
+                    }
+
+                    IsWaitWorking = 0;
+                }
+            });
+        }
+        function CloseBootboxConfirmReuseMsg() {
+            if (BootboxConfirmReuseMsg != null && BootboxConfirmReuseMsg.length > 0) {
+                BootboxConfirmReuseMsg.modal('hide');
+                BootboxConfirmReuseMsg == null;
+            }
+        }
+    </script>
+    <!--2016.06.16 Armstrong 新增時間到了詢問是否繼續使用系統 - end -->
+
+    <!--2017.10.20 Armstrong 學生姓名改成心測姓名 - start -->
+    <script type="text/javascript">
+        function ChangeNameFromCAP() {
+
+            var Span_CAPNameMsg = document.getElementById("Span_CAPNameMsg");
+            Span_CAPNameMsg.innerHTML = "";
+
+            var S_Name = document.getElementById(FrontID + "S_Name");
+            var TextBox_CAPName = document.getElementById(FrontID + "TextBox_CAPName");
+            S_Name.value = TextBox_CAPName.value;
+            Span_CAPNameMsg.innerHTML = "已更新，請記得按下「儲存」按鈕才會生效!";
+        }
+        function LoadCAPNameInfo() {
+            var S_Name = document.getElementById(FrontID + "S_Name");
+            var TextBox_CAPName = document.getElementById(FrontID + "TextBox_CAPName");
+
+            var Button_CAP = document.getElementById(FrontID + "Button_CAP");
+            var Span_CAPNameMsg = document.getElementById("Span_CAPNameMsg");
+
+            if (S_Name != null && TextBox_CAPName != null) {
+                if (TextBox_CAPName.value.trim() == "") {
+                    Button_CAP.disabled = true;
+                    Button_CAP.style.color = '#AAAAAA';
+                    Span_CAPNameMsg.innerHTML = "系統尚無心測資料可更新";
+                }
+                else if (S_Name.value == TextBox_CAPName.value) {
+                    Button_CAP.disabled = true;
+                    Button_CAP.style.color = '#AAAAAA';
+                    Span_CAPNameMsg.innerHTML = "姓名相同無須更新";
+                }
+                else if (S_Name.value != TextBox_CAPName.value) {
+                    Span_CAPNameMsg.innerHTML = "該生心測的姓名：<span class=\"心測字型\">" + TextBox_CAPName.value.trim() + "</span>";
+                }
+            }
+
+        }
+        $(function () {
+            LoadCAPNameInfo();
+        });
+        // < !--2017.10.20 Armstrong 學生姓名改成心測姓名 - end-- >
+
+        // 2019.11.25 Armstrong 學生姓名改成心測成績 - start
+        function GradeFromCAP() {
+
+            var Span_CAPGrade = document.getElementById("Span_CAPGrade");
+            Span_CAPGrade.innerHTML = "";
+
+            var E_txt_exam_id = document.getElementById(FrontID + "E_txt_exam_id");
+            var E_txt_CAPexam_id = document.getElementById(FrontID + "E_txt_CAPexam_id");
+            var ddl_S3_6 = document.getElementById(FrontID + "ddl_S3_6");
+            var ddl_S3_6DS = document.getElementById(FrontID + "ddl_S3_6DS");
+            var ddl_S3_1DS = document.getElementById(FrontID + "ddl_S3_1DS");
+            var ddl_S3_2DS_1 = document.getElementById(FrontID + "ddl_S3_2DS_1");
+            var ddl_S3_2DS_2 = document.getElementById(FrontID + "ddl_S3_2DS_2");
+            var ddl_S3_3DS = document.getElementById(FrontID + "ddl_S3_3DS");
+            var ddl_S3_4DS = document.getElementById(FrontID + "ddl_S3_4DS");
+            var ddl_S3_5DS = document.getElementById(FrontID + "ddl_S3_5DS");
+            var ddl_S3_6AB = document.getElementById(FrontID + "ddl_S3_6AB");
+            var ddl_S3_1AB = document.getElementById(FrontID + "ddl_S3_1AB");
+            var ddl_S3_2AB_1 = document.getElementById(FrontID + "ddl_S3_2AB_1");
+            var ddl_S3_2AB_2 = document.getElementById(FrontID + "ddl_S3_2AB_2");
+            var ddl_S3_3AB = document.getElementById(FrontID + "ddl_S3_3AB");
+            var ddl_S3_4AB = document.getElementById(FrontID + "ddl_S3_4AB");
+            var ddl_S3_5AB = document.getElementById(FrontID + "ddl_S3_5AB");
+            var ddl_S3_1LV = document.getElementById(FrontID + "ddl_S3_1LV");
+            var ddl_S3_2LV = document.getElementById(FrontID + "ddl_S3_2LV");
+            var ddl_S3_3LV = document.getElementById(FrontID + "ddl_S3_3LV");
+            var ddl_S3_4LV = document.getElementById(FrontID + "ddl_S3_4LV");
+            var ddl_S3_5LV = document.getElementById(FrontID + "ddl_S3_5LV");
+            var ddl_S3_1A = document.getElementById(FrontID + "ddl_S3_1A");
+            var ddl_S3_2A = document.getElementById(FrontID + "ddl_S3_2A");
+            var ddl_S3_3A = document.getElementById(FrontID + "ddl_S3_3A");
+            var ddl_S3_4A = document.getElementById(FrontID + "ddl_S3_4A");
+            var ddl_S3_5A = document.getElementById(FrontID + "ddl_S3_5A");
+
+            var E_txt_S3_6V = document.getElementById(FrontID + "E_txt_S3_6V");
+            var E_txt_S3_6DSV = document.getElementById(FrontID + "E_txt_S3_6DSV");
+            var E_txt_S3_1DSV = document.getElementById(FrontID + "E_txt_S3_1DSV");
+            var E_txt_S3_2DSV_1 = document.getElementById(FrontID + "E_txt_S3_2DSV_1");
+            var E_txt_S3_2DSV_2 = document.getElementById(FrontID + "E_txt_S3_2DSV_2");
+            var E_txt_S3_3DSV = document.getElementById(FrontID + "E_txt_S3_3DSV");
+            var E_txt_S3_4DSV = document.getElementById(FrontID + "E_txt_S3_4DSV");
+            var E_txt_S3_5DSV = document.getElementById(FrontID + "E_txt_S3_5DSV");
+            var E_txt_S3_6AB = document.getElementById(FrontID + "E_txt_S3_6ABV");
+            var E_txt_S3_1AB = document.getElementById(FrontID + "E_txt_S3_1ABV");
+            var E_txt_S3_2AB_1 = document.getElementById(FrontID + "E_txt_S3_2ABV_1");
+            var E_txt_S3_2AB_2 = document.getElementById(FrontID + "E_txt_S3_2ABV_2");
+            var E_txt_S3_3AB = document.getElementById(FrontID + "E_txt_S3_3ABV");
+            var E_txt_S3_4AB = document.getElementById(FrontID + "E_txt_S3_4ABV");
+            var E_txt_S3_5AB = document.getElementById(FrontID + "E_txt_S3_5ABV");
+            var E_txt_S3_1LVL = document.getElementById(FrontID + "E_txt_S3_1LVL");
+            var E_txt_S3_2LVL = document.getElementById(FrontID + "E_txt_S3_2LVL");
+            var E_txt_S3_3LVL = document.getElementById(FrontID + "E_txt_S3_3LVL");
+            var E_txt_S3_4LVL = document.getElementById(FrontID + "E_txt_S3_4LVL");
+            var E_txt_S3_5LVL = document.getElementById(FrontID + "E_txt_S3_5LVL");
+            var E_txt_S3_1AV = document.getElementById(FrontID + "E_txt_S3_1AV");
+            var E_txt_S3_2AV = document.getElementById(FrontID + "E_txt_S3_2AV");
+            var E_txt_S3_3AV = document.getElementById(FrontID + "E_txt_S3_3AV");
+            var E_txt_S3_4AV = document.getElementById(FrontID + "E_txt_S3_4AV");
+            var E_txt_S3_5AV = document.getElementById(FrontID + "E_txt_S3_5AV");
+
+            if (ddl_S3_6 != null) {
+                ddl_S3_6.value = E_txt_S3_6V.value;
+            }
+            if (ddl_S3_6DS != null) {
+                ddl_S3_6DS.value = E_txt_S3_6DSV.value;
+            }
+            if (ddl_S3_1DS != null) {
+                ddl_S3_1DS.value = E_txt_S3_1DSV.value;
+            }
+            if (ddl_S3_2DS_1 != null) {
+                ddl_S3_2DS_1.value = E_txt_S3_2DSV_1.value;
+            }
+            if (ddl_S3_2DS_2 != null) {
+                ddl_S3_2DS_2.value = E_txt_S3_2DSV_2.value;
+            }
+            if (ddl_S3_3DS != null) {
+                ddl_S3_3DS.value = E_txt_S3_3DSV.value;
+            }
+            if (ddl_S3_4DS != null) {
+                ddl_S3_4DS.value = E_txt_S3_4DSV.value;
+            }
+            if (ddl_S3_5DS != null) {
+                ddl_S3_5DS.value = E_txt_S3_5DSV.value;
+            }
+            if (ddl_S3_6AB != null) {
+                ddl_S3_6AB.value = E_txt_S3_6AB.value;
+            }
+            if (ddl_S3_1AB != null) {
+                ddl_S3_1AB.value = E_txt_S3_1AB.value;
+            }
+            if (ddl_S3_2AB_1 != null) {
+                ddl_S3_2AB_1.value = E_txt_S3_2AB_1.value;
+            }
+            if (ddl_S3_2AB_2 != null) {
+                ddl_S3_2AB_2.value = E_txt_S3_2AB_2.value;
+            }
+            if (ddl_S3_3AB != null) {
+                ddl_S3_3AB.value = E_txt_S3_3AB.value;
+            }
+            if (ddl_S3_4AB != null) {
+                ddl_S3_4AB.value = E_txt_S3_4AB.value;
+            }
+            if (ddl_S3_5AB != null) {
+                ddl_S3_5AB.value = E_txt_S3_5AB.value;
+            }
+            if (ddl_S3_5LV != null) {
+                ddl_S3_5LV.value = E_txt_S3_5LVL.value;
+            }
+            if (ddl_S3_1A != null) {
+                ddl_S3_1A.value = E_txt_S3_1AV.value;
+            }
+            if (ddl_S3_2A != null) {
+                ddl_S3_2A.value = E_txt_S3_2AV.value;
+            }
+            if (ddl_S3_3A != null) {
+                ddl_S3_3A.value = E_txt_S3_3AV.value;
+            }
+            if (ddl_S3_4A != null) {
+                ddl_S3_4A.value = E_txt_S3_4AV.value;
+            }
+            if (ddl_S3_5A != null) {
+                ddl_S3_5A.value = E_txt_S3_5AV.value;
+            }
+            if (ddl_S3_1LV != null) {
+                ddl_S3_1LV.value = E_txt_S3_1LVL.value;
+            }
+            if (ddl_S3_2LV != null) {
+                ddl_S3_2LV.value = E_txt_S3_2LVL.value;
+            }
+            if (ddl_S3_3LV != null) {
+                ddl_S3_3LV.value = E_txt_S3_3LVL.value;
+            }
+            if (ddl_S3_4LV != null) {
+                ddl_S3_4LV.value = E_txt_S3_4LVL.value;
+            }
+            if (ddl_S3_5DS != null) {
+                ddl_S3_5DS.value = E_txt_S3_5DSV.value;
+            }
+
+
+            ItemChange("");
+
+            Span_CAPGrade.innerHTML = "已更新，請記得按下「儲存」按鈕才會生效!";
+
+        }
+        function LoadCAPGradeInfo() {
+
+            var ddl_S3_6 = document.getElementById(FrontID + "ddl_S3_6");
+            var ddl_S3_1DS = document.getElementById(FrontID + "ddl_S3_1DS");
+            var ddl_S3_2DS_1 = document.getElementById(FrontID + "ddl_S3_2DS_1");
+            var ddl_S3_2DS_2 = document.getElementById(FrontID + "ddl_S3_2DS_2");
+            var ddl_S3_3DS = document.getElementById(FrontID + "ddl_S3_3DS");
+            var ddl_S3_4DS = document.getElementById(FrontID + "ddl_S3_4DS");
+            var ddl_S3_5DS = document.getElementById(FrontID + "ddl_S3_5DS");
+            var ddl_S3_1LV = document.getElementById(FrontID + "ddl_S3_1LV");
+            var ddl_S3_2LV = document.getElementById(FrontID + "ddl_S3_2LV");
+            var ddl_S3_3LV = document.getElementById(FrontID + "ddl_S3_3LV");
+            var ddl_S3_4LV = document.getElementById(FrontID + "ddl_S3_4LV");
+            var ddl_S3_5LV = document.getElementById(FrontID + "ddl_S3_5LV");
+            var ddl_S3_1A = document.getElementById(FrontID + "ddl_S3_1A");
+            var ddl_S3_2A = document.getElementById(FrontID + "ddl_S3_2A");
+            var ddl_S3_3A = document.getElementById(FrontID + "ddl_S3_3A");
+            var ddl_S3_4A = document.getElementById(FrontID + "ddl_S3_4A");
+            var ddl_S3_5A = document.getElementById(FrontID + "ddl_S3_5A");
+
+            var E_txt_exam_id = document.getElementById(FrontID + "E_txt_exam_id");
+            var E_txt_CAPexam_id = document.getElementById(FrontID + "E_txt_CAPexam_id");
+            var E_txt_S3_6V = document.getElementById(FrontID + "E_txt_S3_6V");
+            var E_txt_S3_1DSV = document.getElementById(FrontID + "E_txt_S3_1DSV");
+            var E_txt_S3_2DSV_1 = document.getElementById(FrontID + "E_txt_S3_2DSV_1");
+            var E_txt_S3_2DSV_2 = document.getElementById(FrontID + "E_txt_S3_2DSV_2");
+            var E_txt_S3_3DSV = document.getElementById(FrontID + "E_txt_S3_3DSV");
+            var E_txt_S3_4DSV = document.getElementById(FrontID + "E_txt_S3_4DSV");
+            var E_txt_S3_5DSV = document.getElementById(FrontID + "E_txt_S3_5DSV");
+            var E_txt_S3_1LVL = document.getElementById(FrontID + "E_txt_S3_1LVL");
+            var E_txt_S3_2LVL = document.getElementById(FrontID + "E_txt_S3_2LVL");
+            var E_txt_S3_3LVL = document.getElementById(FrontID + "E_txt_S3_3LVL");
+            var E_txt_S3_4LVL = document.getElementById(FrontID + "E_txt_S3_4LVL");
+            var E_txt_S3_5LVL = document.getElementById(FrontID + "E_txt_S3_5LVL");
+            var E_txt_S3_1AV = document.getElementById(FrontID + "E_txt_S3_1AV");
+            var E_txt_S3_2AV = document.getElementById(FrontID + "E_txt_S3_2AV");
+            var E_txt_S3_3AV = document.getElementById(FrontID + "E_txt_S3_3AV");
+            var E_txt_S3_4AV = document.getElementById(FrontID + "E_txt_S3_4AV");
+            var E_txt_S3_5AV = document.getElementById(FrontID + "E_txt_S3_5AV");
+
+            var Button_CAPGrade = document.getElementById(FrontID + "Button_CAPGrade");
+            var Span_CAPGrade = document.getElementById("Span_CAPGrade");
+
+            if (E_txt_exam_id != null && E_txt_CAPexam_id != null) {
+
+                if (E_txt_CAPexam_id.value == "") {
+                    Button_CAPGrade.disabled = true;
+                    Button_CAPGrade.style.color = '#AAAAAA';
+                    Span_CAPGrade.innerHTML = "系統尚無會考資料可更新";
+                }
+                else if (ddl_S3_6.value == E_txt_S3_6V.value &&
+                    ddl_S3_1DS.value == E_txt_S3_1DSV.value &&
+                    ddl_S3_2DS_1.value == E_txt_S3_2DSV_1.value &&
+                    ddl_S3_2DS_2.value == E_txt_S3_2DSV_2.value &&
+                    ddl_S3_3DS.value == E_txt_S3_3DSV.value &&
+                    ddl_S3_4DS.value == E_txt_S3_4DSV.value &&
+                    ddl_S3_5DS.value == E_txt_S3_5DSV.value &&
+                    ddl_S3_1LV.value == E_txt_S3_1LVL.value &&
+                    ddl_S3_2LV.value == E_txt_S3_2LVL.value &&
+                    ddl_S3_3LV.value == E_txt_S3_3LVL.value &&
+                    ddl_S3_4LV.value == E_txt_S3_4LVL.value &&
+                    ddl_S3_5LV.value == E_txt_S3_5LVL.value &&
+                    ddl_S3_1A.value == E_txt_S3_1AV.value &&
+                    ddl_S3_2A.value == E_txt_S3_2AV.value &&
+                    ddl_S3_3A.value == E_txt_S3_3AV.value &&
+                    ddl_S3_4A.value == E_txt_S3_4AV.value &&
+                    ddl_S3_5A.value == E_txt_S3_5AV.value) {
+                    Button_CAPGrade.disabled = true;
+                    Button_CAPGrade.style.color = '#AAAAAA';
+                    Span_CAPGrade.innerHTML = "與心測中心成績相同無須更新";
+                }
+                else if (ddl_S3_6.value !== E_txt_S3_6V.value ||
+                    ddl_S3_1DS.value !== E_txt_S3_1DSV.value ||
+                    ddl_S3_2DS_1.value !== E_txt_S3_2DSV_1.value ||
+                    ddl_S3_2DS_2.value !== E_txt_S3_2DSV_2.value ||
+                    ddl_S3_3DS.value !== E_txt_S3_3DSV.value ||
+                    ddl_S3_4DS.value !== E_txt_S3_4DSV.value ||
+                    ddl_S3_5DS.value !== E_txt_S3_5DSV.value ||
+                    ddl_S3_1LV.value !== E_txt_S3_1LVL.value ||
+                    ddl_S3_2LV.value !== E_txt_S3_2LVL.value ||
+                    ddl_S3_3LV.value !== E_txt_S3_3LVL.value ||
+                    ddl_S3_4LV.value !== E_txt_S3_4LVL.value ||
+                    ddl_S3_5LV.value !== E_txt_S3_5LVL.value ||
+                    ddl_S3_1A.value !== E_txt_S3_1AV.value ||
+                    ddl_S3_2A.value !== E_txt_S3_2AV.value ||
+                    ddl_S3_3A.value !== E_txt_S3_3AV.value ||
+                    ddl_S3_4A.value !== E_txt_S3_4AV.value ||
+                    ddl_S3_5A.value !== E_txt_S3_5AV.value) {
+                    Span_CAPGrade.innerHTML = "<br>心測中心成績如下，目前與系統不一致：<span class=\"心測字型\">" +
+                        "<br>" + "寫：" +
+                        E_txt_S3_6V.value +
+                        "<br>" + "國：" +
+                        E_txt_S3_1DSV.value + E_txt_S3_1LVL.value + E_txt_S3_1AV.value +
+                        "<br>" + "英：" +
+                        E_txt_S3_2DSV_1.value + E_txt_S3_2DSV_2.value + E_txt_S3_2LVL.value + E_txt_S3_2AV.value +
+                        "<br>" + "數：" +
+                        E_txt_S3_3DSV.value + E_txt_S3_3LVL.value + E_txt_S3_3AV.value +
+                        "<br>" + "社：" +
+                        E_txt_S3_4DSV.value + E_txt_S3_4LVL.value + E_txt_S3_4AV.value +
+                        "<br>" + "自：" +
+                        E_txt_S3_5DSV.value + E_txt_S3_5LVL.value + E_txt_S3_5AV.value +
+                        "</span>";
+
+                }
+
+            }
+        }
+        $(function () {
+            LoadCAPGradeInfo();
+        });
+
+    </script>
+
+    <!-- 2019.11.25 Armstrong 學生姓名改成心測成績 - end-->
+
+    <style type="text/css">
+        .CommentMsg {
+            background-color: #eaf6ff;
+            border: 1px dashed #0094ff;
+            padding: 5px 10px;
+            color: #0072c4;
+            font-size: 12px;
+        }
+    </style>
+
+    <script type="text/javascript">
+        $(function () {
+
+            var url = window.location.pathname;
+            var filename = url.substring(url.lastIndexOf('/') + 1);
+            //console.dir(filename);
+
+
+            getUrlVars();
+            var a = $.getUrlVar("a");
+
+            //console.dir(a);
+
+            if (filename == "PersonalStudent.aspx"
+                || (a != undefined && a == "3")) {
+                $('#show_hide_password input').attr('type', 'password');
+                $('#show_hide_password i').addClass("fa-eye-slash");
+                $('#show_hide_password i').removeClass("fa-eye");
+            }
+
+            $("#show_hide_password div").on('click', function (event) {
+                event.preventDefault();
+                if ($('#show_hide_password input').attr("type") == "text") {
+                    $('#show_hide_password input').attr('type', 'password');
+                    $('#show_hide_password i').addClass("fa-eye-slash");
+                    $('#show_hide_password i').removeClass("fa-eye");
+                } else if ($('#show_hide_password input').attr("type") == "password") {
+                    $('#show_hide_password input').attr('type', 'text');
+                    $('#show_hide_password i').removeClass("fa-eye-slash");
+                    $('#show_hide_password i').addClass("fa-eye");
+                }
+            });
+
+            $("#show_hide_pw div").on('click', function (event) {
+                event.preventDefault();
+                if ($('#show_hide_pw input').attr("type") == "text") {
+                    $('#show_hide_pw input').attr('type', 'password');
+                    $('#show_hide_pw i').addClass("fa-eye-slash");
+                    $('#show_hide_pw i').removeClass("fa-eye");
+                } else if ($('#show_hide_pw input').attr("type") == "password") {
+                    $('#show_hide_pw input').attr('type', 'text');
+                    $('#show_hide_pw i').removeClass("fa-eye-slash");
+                    $('#show_hide_pw i').addClass("fa-eye");
+                }
+            });
+
+            $("#show_hide_pwck div").on('click', function (event) {
+                event.preventDefault();
+                if ($('#show_hide_pwck input').attr("type") == "text") {
+                    $('#show_hide_pwck input').attr('type', 'password');
+                    $('#show_hide_pwck i').addClass("fa-eye-slash");
+                    $('#show_hide_pwck i').removeClass("fa-eye");
+                } else if ($('#show_hide_pwck input').attr("type") == "password") {
+                    $('#show_hide_pwck input').attr('type', 'text');
+                    $('#show_hide_pwck i').removeClass("fa-eye-slash");
+                    $('#show_hide_pwck i').addClass("fa-eye");
+                }
+            });
+
+        });
+    </script>
+
+    <style type="text/css">
+        .Itself_menu {
+            font-size: 0;
+            height: 42px;
+            background-image: linear-gradient(to bottom, #6db680, #428f56);
+            border-radius: 10px;
+            position: relative;
+            float: left;
+            width: 100%;
+        }
+
+            .Itself_menu * {
+                position: relative;
+            }
+
+        .Itself_nav {
+            margin: 0;
+            padding: 0 20px;
+        }
+
+            .Itself_nav > li {
+                height: 42px;
+                vertical-align: top;
+                cursor: pointer;
+                list-style-type: none;
+                display: inline-block;
+            }
+
+                .Itself_nav > li > a {
+                    padding: 0 20px;
+                    line-height: 43px;
+                    font-size: 13px;
+                    color: #fff;
+                    text-decoration: none;
+                    width: 100%;
+                    display: block;
+                }
+
+
+                .Itself_nav > li:hover {
+                    background-image: linear-gradient(to top, #61ab74, #397c4a);
+                    border-bottom: 2px solid #000;
+                }
+
+                .Itself_nav > li ul {
+                    position: absolute;
+                    background-color: #ffd800;
+                    top: 38px;
+                    left: 0px;
+                    margin: 0;
+                    padding: 0;
+                    background-image: linear-gradient(to bottom, #ffffff, #dddddd);
+                    border: 1px solid #b4b4b4;
+                    border-radius: 10px;
+                    overflow: hidden;
+                    box-shadow: 0 0 3px rgb(0, 0, 0, 0.2);
+                    visibility: hidden;
+                    min-width: 150px;
+                }
+
+                .Itself_nav > li:hover ul {
+                    visibility: visible;
+                }
+
+                .Itself_nav > li ul > li > a, .Itself_nav > li ul > div > li > a {
+                    padding: 0 10px;
+                    color: #666;
+                    font-size: 13px;
+                    text-decoration: none;
+                    white-space: nowrap;
+                    line-height: 32px;
+                    text-shadow: 0 1px 0 #fff;
+                    width: 100%;
+                    display: block;
+                }
+
+                .Itself_nav > li ul > li:hover, .Itself_nav > li ul > div > li:hover {
+                    background-color: #519863;
+                }
+
+                    .Itself_nav > li ul > li:hover a, .Itself_nav > li ul > div > li:hover a {
+                        color: #fff;
+                        text-shadow: 0 1px 2px rgb(0, 0, 0, 0.5);
+                    }
+    </style>
+
+
+
+</head>
+<body onload="DisplaySessionTimeout();">
+
+    
+
+    
+
+    
+
+    <style type="text/css">
+        .LeftNavClass:link,
+        .LeftNavClass:visited,
+        .LeftNavClass:active,
+        .LeftNavClass:hover {
+            text-decoration: none;
+        }
+
+        .LeftNavClass {
+            cursor: pointer;
+            color: #4d555a;
+            border: 1px solid #d3d3d3;
+            padding: 5px;
+            background: #ffffff;
+            background: -moz-linear-gradient(-45deg, #ffffff 0%, #eeeeff 100%);
+            background: -webkit-linear-gradient(-45deg, #ffffff 0%,#eeeeff 100%);
+            background: linear-gradient(135deg, #ffffff 0%,#eeeeff 100%);
+            filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#eeeeff',GradientType=1 );
+        }
+
+
+        #Itself_left .LeftNavClass_Li {
+            padding: 0 0 5px 0;
+            border: 0;
+        }
+
+            #Itself_left .LeftNavClass_Li a {
+                color: #FF6633;
+                font-weight: bold;
+            }
+
+                #Itself_left .LeftNavClass_Li a:hover {
+                    color: #4D555A;
+                    background-color: #E6E6E6;
+                }
+    </style>
+
+<script type="text/javascript">
+//<![CDATA[
+var theForm = document.forms['aspnetForm'];
+if (!theForm) {
+    theForm = document.aspnetForm;
+}
+function __doPostBack(eventTarget, eventArgument) {
+    if (!theForm.onsubmit || (theForm.onsubmit() != false)) {
+        theForm.__EVENTTARGET.value = eventTarget;
+        theForm.__EVENTARGUMENT.value = eventArgument;
+        theForm.submit();
+    }
+}
+//]]>
+</script>
+
+
+<script src="/NoExamImitate_CT/NoExamImitate/WebResource.axd?d=L_ET-1tsGqosOhpV6rEm8N-KhkSSlaLmDs92OfDPY4rekmlFui984cBvU7veIpOyIJxZDu9D_bQzu25WQchaJOTwaPg1&amp;t=638465343187615987" type="text/javascript"></script>
+
+
+<script src="/NoExamImitate_CT/NoExamImitate/ScriptResource.axd?d=AOyLCdim1UxmPuOGCJ_piWFSvXBGdeR-DBWyp2sG2K-1tKhNCdVbju5fz7zEKzvYwzB8H4sVxp3-WUUzgJv0uc31z90UYW6SKeHEBv4wYQ-zGN20CnerROtyzbhzQyjxRM574XaiLVcGtkWrj2L9c4_5c_c1&amp;t=7e969891" type="text/javascript"></script>
+<script src="/NoExamImitate_CT/NoExamImitate/ScriptResource.axd?d=gv16RZgVn8CGiwkmO2RJh0howqPu6h2Hg875dIWclxJ39B6tuIPz-6NRIFoJ4d5P-irqSqLPVSBswFIAcpoKpS3FakoiLZrZP9ZxS6sSweL_kUNxymBb2wS-1R3TXNim9TXNerehguH4lI4DveUU3TSjBj8OwWbpQw7Qi_eS40acRWKP0&amp;t=2e7d0aca" type="text/javascript"></script>
+<script type="text/javascript">
+//<![CDATA[
+if (typeof(Sys) === 'undefined') throw new Error('ASP.NET Ajax 用戶端架構無法載入。');
+//]]>
+</script>
+
+<script src="/NoExamImitate_CT/NoExamImitate/ScriptResource.axd?d=rFqwmfvjH8yfEN31wR_YUGNGDJXwtn75L3F8_JF-JuvF28q6cJQNbbBXukMLic8k2Qtjvjp0TKLAJxfaAOxkrIdxRLzKV2A7Vba_OmEDzktscfJKrIB83SFDUKMUrNud28V0VDkeIcTSdSAY_dx97nitDJSzFisqwyC6XTnVtlPe-Xvx7gpu9opM67TkUewN2ABoig2&amp;t=2e7d0aca" type="text/javascript"></script>
+<script src="/NoExamImitate_CT/NoExamImitate/WebResource.axd?d=uWrfXvVCEO47BRuUHR50eEZp5jilbPKwJreOsy5bnQRvQ0Abs5Wg5WTA9e_robe6w4q_Hlv98--0uabuXAhKSA_WJkg1&amp;t=638465343187615987" type="text/javascript"></script>
+<script type="text/javascript">
+//<![CDATA[
+function WebForm_OnSubmit() {
+if (typeof(ValidatorOnSubmit) == "function" && ValidatorOnSubmit() == false) return false;
+return true;
+}
+//]]>
+</script>
+
+<div>
+
+	<input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="7E69D46D" />
+	<input type="hidden" name="__SCROLLPOSITIONX" id="__SCROLLPOSITIONX" value="0" />
+	<input type="hidden" name="__SCROLLPOSITIONY" id="__SCROLLPOSITIONY" value="0" />
+	<input type="hidden" name="__VIEWSTATEENCRYPTED" id="__VIEWSTATEENCRYPTED" value="" />
+	<input type="hidden" name="__PREVIOUSPAGE" id="__PREVIOUSPAGE" value="W67Mahr9nKoRdloiiTBnnvQBQ0taWxVpHtL7vB44N7CZuxgvGrKVqSTbhZUh-ffLR09IioZ8Xs4b79yNxQAhSPTi_2mBV4uEOdaBXdD0zF79_2o-HdwKlscYSg8xi4qlD6eWzZpPu_KG7FOJS2e1SwNT_p01" />
+	<input type="hidden" name="__EVENTVALIDATION" id="__EVENTVALIDATION" value="wPU1VADa1SqN9b9pvxe7GW0JDl6n0sKw96Us8L0bSrEE1NSAfrfiypbKy4j5WLb+pMS0/Lq6Jm3FkIlcQhPhh4YZvp0MgIDSSnVuz+aLy4UCV1P4KLKm6LNaezNkI171KkPNLbTnDUeF1pHmOvFLBECXRrcMdS1D6OWKJB+9vDmyXsKzG0Lr5vnSmo/E5fLvuqmWhIK3BGyM1y6TZORK+M1tOUSAqzCnVxsIHaHxGJwfCOrN3fNJ/0W7Y4qtVzbIBSaRBnUzP2Bjpi9Iyexq2dcv7Q3mx5sckEJEjUWpfwFQcpwxgPZ4wC8Jy+bd5E5zLNU0NhlpQe282LL0KVasOFEvVLpXQNw/ObpX0rya4Yx+u+odL/VQryVYd6Cznydf1coyqzEMSl3BsQzB+HVbJQ+dWu17B66cgpBUCnmqDOic/Xu0u1fQEQ4Es9qNcKAZPvIKvTWxRbr0U9IqDcnxetKKeRCmi5q5yNqDQCErQkgmiDG9JCQpO2dtt+tlQPr1sF/Pt1Dvi0kqCi1wj2CPHiQUwOibo85XcW1Cu/Bp6VYOMLaaKIRHrATU/wrsS2ShegzZS/+dJoNrWBrc0l1KM+t+WI+3nfCg3kuF3mwQrfPKZiY9oOWKV+LpczSmCC8v+eF2FtvhK1kv5HKVcOCOAJFmfUX+NPegl1SL3iNl4uopUlhpNwVRXyCR+6B1c5K/C8U+yyKlji6J15R5R+Ut8+zJZMWB/9jUf5JLwLMiGv3NdRmsbMsd7lCkypiuDl+rPDgNOd8k14hmGO+/vgUrQUO56oylsSC6kD5fzL42GgR0MLoC0Msk0XKshyS1ZtaMlVZqpZx1idYcL7fWYwsjxMk3RyHg202QTkzADuKz0tv5BL9gZiuROwXjz39kH/ku35GaemYHWJYp/JViBOk7rmHYRbuht7KtdhvzMV1rnQ2qXwKHQcHfKRUdUnU49kR9U7sp6fHIRDiHo6xJAjx+AWOEYPuLZs7bvmcsaXUt6A5NMFQQkI33vlI290uiTxbp1dXBXK4KuVYOg67M/NK//+IFtYa/YEHbyr2evC2IVtnyiImMJ3UbPrRLkGkFwIvirQsA4mVSi4qpysvAYhybmwee3uLMjnDPz5cAXx+Qx7dLkaRpyd/EmGbOsyBjuZEM/crOUVjhXc9v7wVTVSjf7CQA47xRekxi3iCkbcxIE+sMZz4JUe2hEEx2Cjo8i78BgKJoGbY6kHIAsPVMwD1r/k5+QndQDNdRIhQqZxlW76GsJVZmlKOPiFC34VB6KuKWk0HhPrHrdEtFakx01a4Pvve+aV3ewVI0m3Uvf/Vs4GUj4/V+ZLxiHfqHtwWQPNMsTDFhh6bjFk3KuDFV1+XJrGYwDBzP+MNIk4LsDXLnX+Yo2sfHHwTIy+hcfl+JDoUUnzY/msGYIBRbQOSPb7tjNdeUOWBndj0RAar7ek3wGyWbrkoF8tfYlGjxjrSSKC8JnVLEKzX7B7C1XCt5oJEsS1dIVV9/w19ptB3f74R9DTR2KR0Vh+JHi1Pm1DtXGbrWxBSPq/wUOo5OMf3CHs9qiDZ3nxtjy/BKWZYo88togm/rq/NhyUdh9DEk8RJOkq/Px4nUPLwca0RfJ1OBTbA0BnFnQKk1wokSsBonzE/3xfIc6ZStWZb8jifWFDX1DO55mhOf6J7wM6Pm9GdhKmtd0iZr26MGMNeqenBM0sBM+5/SqZ6sQrr57yDDA4P3z5xPIVDnNHbraCnS9lyGeI9LVe+gTPNjs8hYIAr3XIs3dxhC+KqBleBOVVjqePSZ2OkLCfGtfNo7lEJVTZHYsDDv4RdrmN59MQ23VuMqqCbOmKkmMlqwz6m8glyS8nKbqx9RvyyRLo1Y/cqQN1Z1VZi+nF7+ALF0y9nKinC7GacZOq9Y/gLT89yBAGGQsNNABBVefEqdLaeOzYga4nIfrcbG9tk0x20MgcWAZ6HO766QkbCRuxIhYgGrzExsIi9xgG1PqZ99c3DZ2oOTfTfDuXFHW4tUjKU2xyeBJZK/AT4X+r6ybr2m2KAqY/MOegOkWA9l5TPq0pzX8qW/r4saL6e9Hn9y2bqbRt2RRcKGo0yXnYW8OJwJXcusIqZW+ptuYXkmoCIzeWY+zVHYbsXSzziw4GJUazmEbg+sTFZy0EoJ3WAVvXQauPoPCTjPRdCNW6LBOTOw/Pi40EEPigdzP7eUdNVXYGJt4mOci4P19XxD5KfMKlcGPcwF3G10tt/NrvuMUdrjz+qMDGKDpKuoak1TXynk3x7ZaQ0HGtq8YctETp0NdYDpKgeVOasVoTtwLBbQMLf4Pb0mkn/ywtxjD+XUyjTeDWt7mPx3VmTIFnU0BatKuo1SCFVfB4aMkWMP9IVh7OriUpEmwD1vxHa+UHdiNMyyyZeDpnqwQpkFZT3Z+Uz+K2I1JAjBc0viLg1LDGpi+eMBWNLYlDWf9G3SbvmLBJqcSBhfQKLJCL+/4UepMapBNNRPMcpoFERZHdHVNiT2ppwQJzMAREcIOKDVIvI2EgFQp5mFTxdPjjzkDSfpzXAJQhK82QOlOHa+XTXPs8GX8dK+IJq+zd6QEgJ7I4VBl2VdCBUIE/CxgwWz4G00dg6pPPAhjbUUP9GX19H0J9MOb0px9I+NIYPLYW/+PMVx3PqI5scdCzNCfa6ww6rS1Dju6WZYMc53A6vPmlDVUlTA9ck7qOIzFjzZaB6h2lMnP+tZI9V0PmJmGbRvlMNWIISWf3x/zp8fCgDalvLJyuWsTWmIV9jsV6ZfFlMKMz/A771I9flk4XBTyptw1CB/+qjIJSwMEkBnj4OlONHn1dmZrtGwT7Gkx1MlUXt4uAeLhBSqFmxHywrrR5ZqeycaoX7mJ6pGjEXjru2AtJvBLizEXdBr7D6t9ZMnCMyHBNLUEtkeF2aPIog+uupOMaO4P56jhtGfFS+E5WsmG++v91BtRIHpb8uZz+bm7LaXykwsnQknyT+ORQOF2XHeDRnpX9bK8TouX2T1wk878iVW24I2PGT9yoH6/dUBUIJzKqKGcepqMWGReWZpt8cPmbPSoftD5LlQBjJcmNQYV4E/4+3noGlD0Fvs+aXptQTjG+8jukLIMIezx2K7cV6kmXihI6wQNtyergJbw+JbJGnp9+l36wtwkne5gObm1kdfiLr1g3HoEd8GQgnikJJAgv16s8f1irLu8RnMyR9FUCYvnT2+H830fj/BAfGmXwycJesjrBm3AR+2O1cw/AsmrsdZd7oi9VWxR+KbW5H0e7ZVJ90nPHM32s3eQS2hFbRPN6n/HYZuvXkQM6zQdzeeyVND6MSl+1RBEU9TdbItC/GkLmVNXTJGLZMg3+n9q37los7CH9meJfkEKjJBTQLklLQbIVg2rG+3" />
+</div>
+        <script type="text/javascript" src='/NoExamImitate_CT/NoExamImitate/Lib/FormSubmit.js?v=133646396247719512'></script>
+        <div id="Itself_container">
+            <div id="Itself_header" style="background-image: url('/NoExamImitate_CT/NoExamImitate/images/113header-bg.png')">
+                <div id="topmenu1">
+                    <ul>
+                        <!--
+                        <li>
+                            <a id="ctl00_ctl00_ContentPlaceHolder1_btnLogIn" href="javascript:WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions(&quot;ctl00$ctl00$ContentPlaceHolder1$btnLogIn&quot;, &quot;&quot;, false, &quot;&quot;, &quot;https://ct.entry.edu.tw/NoExamImitate_CT/NoExamImitateHome/Apps/Page/Public/07/ChooseSys_AU.aspx&quot;, false, true))">登入</a>
+                        </li>
+                        <li>
+                            
+                        </li>
+                        -->
+                        <li style="background-color: rgba(255,255,255,0.8);"><a>
+                            <span id="ctl00_ctl00_ContentPlaceHolder1_lblNAME" class="心測字型">訪客</span></a> </li>
+                    </ul>
+                </div>
+                <!--end topmenu1-->
+                <div id="Itself_top" style="position: relative">
+                    <div id="Itself_logo">
+                        <a href='/NoExamImitate_CT/NoExamImitate/index.aspx'>
+                            <!--2014.12.23 Armstrong 修改路徑 -->
+                            <!--<img src='/NoExamImitate_CT/NoExamImitate/images/logo_07.png' style="position: relative; top: -10px; left: 20px; height: 70px" alt="logo" border="0" />-->
+                            <img class="bannerLogo" src="/NoExamImitate_CT/NoExamImitate/images/113Logo.png" />
+                            <div class="bannerText">
+                                <div class="bannerText_top">
+                                    中投區高級中等學校
+                                </div>
+                                <div class="bannerText_hr"></div>
+                                <div class="bannerText_bottom" >免試入學委員會</div>
+                            </div>
+                        </a>
+                    </div>
+                    <!--end top -->
+                    <!--end topmenu2-->
+
+                    <div id="ctl00_ctl00_ContentPlaceHolder1_Panel_BNTitleName">
+	
+                        <div id="ctl00_ctl00_ContentPlaceHolder1_Panel_BNTitleName_Div" style="text-shadow: 0 0 5px #fff, 0 0 5px #fff, 0 0 5px #fff, 0 0 5px #fff, 0 0 5px #fff, 0 0 5px #fff; position: absolute; top: 12px; left: 400px; font-family: &#39;微軟正黑體&#39;; font-weight: bold; font-size: 18px; color: #4e4fa1; background-color: rgba(255,255,255,0.8); padding: 0px 3px; border-radius: 3px;">113學年度中投區免試入學系統</div>
+                    
+</div>
+
+                    
+
+                </div>
+                <!--end top -->
+                <!-- Menu區塊↓-->
+                <!--nav-->
+                <!--nav-->
+                <div class="Itself_menu">
+                    <ul class="Itself_nav">
+                        <li id="ctl00_ctl00_ContentPlaceHolder1_liHome" style="z-index: 999; display: none;"><a href='/NoExamImitate_CT/NoExamImitate/index.aspx'>首頁</a></li>
+
+                        <li id="ctl00_ctl00_ContentPlaceHolder1_liNews" style="z-index: 99999"><a href='/NoExamImitate_CT/NoExamImitate/Apps/Page/Public/News.aspx'>最新公告</a>
+
+                        </li>
+
+                        <li id="ctl00_ctl00_ContentPlaceHolder1_UlWebsite_Web_Main" style="display: none;"><li><a href="/NoExamImitate_CT/NoExamImitateHome/" style="color:yellow" target="_blank">返回入口頁</a></li><li><a href="../EnrollmentInquiry.aspx" style="" target="">招生名額查詢</a></li></li>
+
+                        <!--2016.03.03 Armstrong 新增選單 - start-->
+                        
+                        <!--2016.03.03 Armstrong 新增選單 - end-->
+
+                        <li id="ctl00_ctl00_ContentPlaceHolder1_lidownload" style="z-index: 99999"><a href="#">相關下載</a>
+                            <ul>
+                                <li id="ctl00_ctl00_ContentPlaceHolder1_li2"><a href='/NoExamImitate_CT/NoExamImitate/Apps/Page/Public/OperatingTeaching.aspx'>操作教學</a></li>
+                                
+                                
+                                <li id="ctl00_ctl00_ContentPlaceHolder1_li_UpDown"><a href='/NoExamImitate_CT/NoExamImitate/Apps/Page/Public/CustomUpDown.aspx'>其他下載</a></li>
+                            </ul>
+                        </li>
+
+                        <!--2014.12.15 Armstrong 新增選單 - start-->
+                        <li id="ctl00_ctl00_ContentPlaceHolder1_lilogin" style="z-index: 99999"><a href='/NoExamImitate_CT/NoExamImitate/Apps/Page/Public/ChooseSys.aspx'>登入</a></li>
+                        
+                        <!--2014.12.15 Armstrong 新增選單 - end-->
+
+                    </ul>
+
+
+
+                </div>
+                <!--跑馬燈-->
+                <div>
+                    <marquee id="MARQUEE1" onmouseover="this.stop()" onmouseout="this.start()" scrollamount="1"
+                        scrolldelay="20" truespeed="5" behavior="loop">
+                        <span id="ctl00_ctl00_ContentPlaceHolder1_Label_MarqueeString"><span style='color:red'></span></span></marquee>
+                </div>
+
+                <!-- Menu區塊↑-->
+            </div>
+            <!--end header -->
+            <!-- 主內容區塊↓-->
+            <div id="content">
+                <div id="breadcrumb">
+                    <ul>
+                        <li>
+                            <a href="/NoExamImitate_CT/NoExamImitate/index.aspx">
+                                <i class="fa fa-home fa-5" aria-hidden="true" style="color: orangered;"></i>首頁
+                            </a>
+                        </li>
+                        <!--功能路徑-->
+                        <li>Login</li>
+                    </ul>
+                </div>
+                <!--end breadcrumb-->
+                
+                <!--<img src="../../../../images/loading.gif" id="ctl00_ctl00_ContentPlaceHolder1_imgLoad" name="Submit_imgLoad" style="display: none;" />-->
+                <span id="ctl00_ctl00_ContentPlaceHolder1_lblMsg" style="color:Red;"></span>
+
+                <table style="width: 100%;" border="0">
+                    <tr align="center">
+                        <td>
+                            <!--2022.12.14 Mark 個「別」序位改成個「人」序位 -->
+                            
+                        </td>
+                    </tr>
+                </table>
+
+                <div id="ctl00_ctl00_ContentPlaceHolder1_Left_MENU">
+                    
+                </div>
+
+                <!--面板內容↓-->
+                <div id="main">
+                    
+
+    <!--下拉式選單功能-->
+
+    
+
+    <script type="text/javascript">
+
+        getUrlVars();
+        var a = $.getUrlVar("a");
+        var IsPersonalStudent = $.getUrlVar("IsPersonalStudent");
+        var Way_No = 'AU';
+
+        $(document).ready(function () {
+
+            $('#' + FrontID + 'ddl_login_kind').multiselect(
+                {
+                    //buttonWidth: '200px',
+                    maxHeight: 200,
+                    includeSelectAllOption: true,
+                    selectAllText: '全選',
+                    enableCaseInsensitiveFiltering: true,
+                    filterPlaceholder: '查詢',
+                    buttonText: function (options, select) {
+
+                        if (options.length === 0) {
+                            return "請選擇登入對象";
+                        }
+                            //else if (options.length < select.context.length) {
+                            //    return "已選擇" + options.length + '個選項！';
+                            //}
+                            //else if(options.length == select.context.length) {
+                            //    return "已全選！";
+                            //}
+                        else {
+                            var labels = [];
+                            options.each(function () {
+                                if ($(this).attr('label') !== undefined) {
+                                    labels.push($(this).attr('label'));
+                                }
+                                else {
+                                    labels.push($(this).html());
+                                }
+                            });
+                            return "<span>" + labels.join(', ') + '</span>' + "";
+                        }
+                    },
+                    onChange: function (option, checked, select) {
+                        //$scope.ChangeSch_No();
+                        //console.log($(option).val());
+                        //alert('Changed option ' + $(option).val() + '.');
+                    }
+
+                }
+            );
+            $('#' + FrontID + 'Q_Sch_Select').multiselect(
+                {
+                    //buttonWidth: '200px',
+                    maxHeight: 200,
+                    includeSelectAllOption: true,
+                    selectAllText: '全選',
+                    enableCaseInsensitiveFiltering: true,
+                    filterPlaceholder: '查詢',
+                    buttonText: function (options, select) {
+
+                        if (options.length === 0) {
+                            return "請選擇<span>學校</span>";
+                        }
+                            //else if (options.length < select.context.length) {
+                            //    return "已選擇" + options.length + '個選項！';
+                            //}
+                            //else if(options.length == select.context.length) {
+                            //    return "已全選！";
+                            //}
+                        else {
+                            var labels = [];
+                            options.each(function () {
+                                if ($(this).attr('label') !== undefined) {
+                                    labels.push($(this).attr('label'));
+                                }
+                                else {
+                                    labels.push($(this).html());
+                                }
+                            });
+                            return "<span>" + labels.join(', ') + '</span>' + "";
+                        }
+                    },
+                    onChange: function (option, checked, select) {
+                        //$scope.ChangeSch_No();
+                        //console.log($(option).val());
+                        //alert('Changed option ' + $(option).val() + '.');
+                    }
+                }
+            );
+
+            
+            DefaultSet();
+            ItemChanged();
+
+
+        });
+
+        function DefaultSet() {
+
+            var ddl_login_kind = $('#' + FrontID + 'ddl_login_kind');
+
+            if (a == "1" || a == "2" || a == "3" || a == "4") {
+                ddl_login_kind.val(a);
+                ddl_login_kind.multiselect("refresh");
+
+                ddl_login_kind.hide(0);
+                $('#Div_KindChoose').hide(0);
+            }
+
+        }
+
+        function ItemChanged() {
+
+            var ddl_login_kind = $('#' + FrontID + 'ddl_login_kind');
+            var kind = ddl_login_kind.val();
+            var AccountPrompt = "";
+            var PWPrompt = "";
+            var KindName = "";
+            $('#Div_SchoolChoose').hide(0);
+
+            $('#' + FrontID + 'HyperLink_ForgotPassword').show(0);
+
+
+            if (kind == "1") {
+                $('#' + FrontID + 'HyperLink_ForgotPassword').attr('href', $('#' + FrontID + 'HyperLink_ForgotPassword').attr('href') + '?a=J1')
+                KindName = "國中承辦人員端";
+                AccountPrompt = '貴校校代碼+a(ex：000000a)';
+                if (Way_No != "AU") {
+                    PWPrompt = "與免試平台相同";
+                }
+                else {
+                    PWPrompt = '預設密碼請洽主辦單位';
+                }
+            }
+            else if (kind == "2") {
+                $('#' + FrontID + 'HyperLink_ForgotPassword').attr('href', $('#' + FrontID + 'HyperLink_ForgotPassword').attr('href') + '?a=H')
+                KindName = "高中技高";
+                //AccountPrompt = '貴校校代碼(ex：000000)';
+                if (Way_No != "AU") {
+                    PWPrompt = "與免試平台相同";
+                }
+                else {
+                    PWPrompt = '預設密碼請洽主辦單位';
+                }
+            }
+            else if (kind == "3") {
+                $('#Div_SchoolChoose').show(0);
+                $('#' + FrontID + 'HyperLink_ForgotPassword').show(0);
+                $('#' + FrontID + 'HyperLink_ForgotPassword').attr('href', $('#' + FrontID + 'HyperLink_ForgotPassword').attr('href') + '?a=S_1')
+                KindName = "集報學生端";
+                AccountPrompt = '身分證字號(不分大小寫)';
+                PWPrompt = '預設密碼為 身分證後四碼 + 出生月日四碼 共八碼(ex:67890101)';
+                if (Way_No != "AU") {
+                    PWPrompt = "與免試平台相同";
+                }
+                else {
+                    var NowMonth_temp = (new Date()).getMonth() + 1;
+                    if (NowMonth_temp >= 5 && NowMonth_temp <= 10) {
+                        PWPrompt += "<br><span style='color:red;font-size:16px'>正式選填請以預設密碼登入，登入成功需修改密碼後登出，再以修改後之密碼重新登入，請牢記密碼，忘記密碼請洽詢原國中註冊組重新設定！</span>";
+                    }
+                }
+                
+            }
+            else if (kind == "4") {
+                $('#Div_SchoolChoose').show(0);
+                $('#' + FrontID + 'HyperLink_ForgotPassword').attr('href', $('#' + FrontID + 'HyperLink_ForgotPassword').attr('href') + '?a=J4')
+                KindName = "國中輔導老師端";
+                AccountPrompt = '帳號請洽貴校承辦人員';
+                PWPrompt = '密碼請洽貴校承辦人員';
+            }
+
+
+            $('#' + FrontID + 'Label_AccountPrompt').html(AccountPrompt);
+            $('#' + FrontID + 'Label_PWPrompt').html(PWPrompt);
+            $('#' + FrontID + 'Label_KindName').html(KindName);
+
+        }
+
+    </script>
+
+    <meta http-equiv="EXPIRES" content="0">
+    <meta http-equiv="pragma" content="no-cache">
+    <script type="text/javascript">
+//<![CDATA[
+Sys.WebForms.PageRequestManager._initialize('ctl00$ctl00$ContentPlaceHolder1$ContentPlaceHolder1$ScriptManager1', 'aspnetForm', ['tctl00$ctl00$ContentPlaceHolder1$ContentPlaceHolder1$UpdatePanel1',''], [], [], 90, 'ctl00$ctl00');
+//]]>
+</script>
+
+    <div style="width: 127%;">
+        <table style="width: 100%" height="280" border="0" align="center" cellpadding="5" cellspacing="5">
+            <tr>
+                <td style="width: 20%" align="center">
+                    <img src="../../../../images/login-pic.png" style="width: 230px; height: 230px" />
+
+                </td>
+                <td style="width: 50%">
+
+                    <div class="form-group">
+                        <div class="col-sm-12">
+                            <img src="../../../../images/login1.png" />
+                            &nbsp;
+                            <span id="ctl00_ctl00_ContentPlaceHolder1_ContentPlaceHolder1_Label_KindName" style="color:green;font-size:30px;font-weight:bold"></span>
+                        </div>
+                    </div>
+                    <div id="Div_KindChoose" class="form-group">
+                        <label for="登入對象" class="col-sm-3 control-label" style="text-align: right; line-height: 35px;">登入對象：</label>
+                        <div class="col-sm-9">
+                            <select name="ctl00$ctl00$ContentPlaceHolder1$ContentPlaceHolder1$ddl_login_kind" id="ctl00_ctl00_ContentPlaceHolder1_ContentPlaceHolder1_ddl_login_kind" tabindex="1" onchange="javascript:ItemChanged();">
+	<option value="3">學生端</option>
+	<option value="4">國中輔導老師(導師)端</option>
+	<option value="1">國中端</option>
+	<option value="2">高中技高</option>
+
+</select>
+                            <p></p>
+                            <div style="height: 10px;"></div>
+                        </div>
+                    </div>
+                    <div id="Div_SchoolChoose" class="form-group">
+                        <label for="學校" class="col-sm-3 control-label" style="text-align: right; line-height: 35px;">學校：</label>
+                        <div class="col-sm-9">
+                            <span id="ctl00_ctl00_ContentPlaceHolder1_ContentPlaceHolder1_Label_LoginKindPrompt" style="color:Blue;"></span>
+
+                            <select name="ctl00$ctl00$ContentPlaceHolder1$ContentPlaceHolder1$Q_Sch_Select" id="ctl00_ctl00_ContentPlaceHolder1_ContentPlaceHolder1_Q_Sch_Select" tabindex="2">
+	<option value="">請選擇學校</option>
+	<option value="060323">(060323)臺中市_國立中科實驗高級中學國中部</option>
+	<option value="061301">(061301)臺中市_常春藤學校財團法人臺中市常春藤高級中學國中部</option>
+	<option value="061310">(061310)臺中市_臺中市私立大明高級中學國中部</option>
+	<option value="061313">(061313)臺中市_臺中市私立明道高級中學國中部</option>
+	<option value="061314">(061314)臺中市_臺中市私立僑泰高級中學國中部</option>
+	<option value="061315">(061315)臺中市_臺中市私立華盛頓高級中學國中部</option>
+	<option value="061317">(061317)臺中市_臺中市私立弘文高級中學國中部</option>
+	<option value="061318">(061318)臺中市_臺中市私立立人高級中學國中部</option>
+	<option value="061322">(061322)臺中市_臺中市私立華德福大地實驗教育學校</option>
+	<option value="063501">(063501)臺中市_臺中市立善水國民中小學</option>
+	<option value="064308">(064308)臺中市_臺中市立后綜高級中學國中部</option>
+	<option value="064324">(064324)臺中市_臺中市立大里高級中學國中部</option>
+	<option value="064328">(064328)臺中市_臺中市立新社高級中學國中部</option>
+	<option value="064336">(064336)臺中市_臺中市立長億高級中學國中部</option>
+	<option value="064342">(064342)臺中市_臺中市立中港高級中學國中部</option>
+	<option value="064350">(064350)臺中市_臺中市立龍津高級中等學校國中部</option>
+	<option value="064406">(064406)臺中市_臺中市立神岡工業高級中等學校國中部</option>
+	<option value="064501">(064501)臺中市_臺中市立豐原國民中學</option>
+	<option value="064502">(064502)臺中市_臺中市立豐東國民中學</option>
+	<option value="064503">(064503)臺中市_臺中市立豐南國民中學</option>
+	<option value="064504">(064504)臺中市_臺中市立潭子國民中學</option>
+	<option value="064505">(064505)臺中市_臺中市立大雅國民中學</option>
+	<option value="064507">(064507)臺中市_臺中市立后里國民中學</option>
+	<option value="064509">(064509)臺中市_臺中市立外埔國民中學</option>
+	<option value="064510">(064510)臺中市_臺中市立大甲國民中學</option>
+	<option value="064511">(064511)臺中市_臺中市立日南國民中學</option>
+	<option value="064512">(064512)臺中市_臺中市立大安國民中學</option>
+	<option value="064513">(064513)臺中市_臺中市立清水國民中學</option>
+	<option value="064514">(064514)臺中市_臺中市立清泉國民中學</option>
+	<option value="064515">(064515)臺中市_臺中市立沙鹿國民中學</option>
+	<option value="064516">(064516)臺中市_臺中市立梧棲國民中學</option>
+	<option value="064517">(064517)臺中市_臺中市立龍井國民中學</option>
+	<option value="064518">(064518)臺中市_臺中市立四箴國民中學</option>
+	<option value="064519">(064519)臺中市_臺中市立大道國民中學</option>
+	<option value="064520">(064520)臺中市_臺中市立烏日國民中學</option>
+	<option value="064521">(064521)臺中市_臺中市立溪南國民中學</option>
+	<option value="064522">(064522)臺中市_臺中市立霧峰國民中學</option>
+	<option value="064523">(064523)臺中市_臺中市立光復國民中小學</option>
+	<option value="064525">(064525)臺中市_臺中市立太平國民中學</option>
+	<option value="064526">(064526)臺中市_臺中市立中平國民中學</option>
+	<option value="064527">(064527)臺中市_臺中市立石岡國民中學</option>
+	<option value="064529">(064529)臺中市_臺中市立東勢國民中學</option>
+	<option value="064530">(064530)臺中市_臺中市立東華國民中學</option>
+	<option value="064531">(064531)臺中市_臺中市立東新國民中學</option>
+	<option value="064532">(064532)臺中市_臺中市立成功國民中學</option>
+	<option value="064533">(064533)臺中市_臺中市立和平國民中學</option>
+	<option value="064534">(064534)臺中市_臺中市立北勢國民中學</option>
+	<option value="064535">(064535)臺中市_臺中市立鹿寮國民中學</option>
+	<option value="064537">(064537)臺中市_臺中市立光榮國民中學</option>
+	<option value="064538">(064538)臺中市_臺中市立潭秀國民中學</option>
+	<option value="064539">(064539)臺中市_臺中市立順天國民中學</option>
+	<option value="064540">(064540)臺中市_臺中市立清海國民中學</option>
+	<option value="064541">(064541)臺中市_臺中市立大華國民中學</option>
+	<option value="064543">(064543)臺中市_臺中市立新光國民中學</option>
+	<option value="064544">(064544)臺中市_臺中市立光正國民中學</option>
+	<option value="064545">(064545)臺中市_臺中市立豐陽國民中學</option>
+	<option value="064546">(064546)臺中市_臺中市立光德國民中學</option>
+	<option value="064547">(064547)臺中市_臺中市立立新國民中學</option>
+	<option value="064548">(064548)臺中市_臺中市立爽文國民中學</option>
+	<option value="064549">(064549)臺中市_臺中市立公明國民中學</option>
+	<option value="064551">(064551)臺中市_臺中市立神圳國民中學</option>
+	<option value="064552">(064552)臺中市_臺中市立梨山國民中小學</option>
+	<option value="191301">(191301)臺中市_財團法人東海大學附屬高級中等學校國中部</option>
+	<option value="191302">(191302)臺中市_葳格學校財團法人臺中市葳格高級中學國中部</option>
+	<option value="191305">(191305)臺中市_臺中市私立新民高級中學國中部</option>
+	<option value="191309">(191309)臺中市_明德學校財團法人臺中市明德高級中學國中部</option>
+	<option value="191311">(191311)臺中市_臺中市私立衛道高級中學國中部</option>
+	<option value="191313">(191313)臺中市_臺中市私立曉明女子高級中學國中部</option>
+	<option value="191314">(191314)臺中市_臺中市私立嶺東高級中學國中部</option>
+	<option value="191315">(191315)臺中市_臺中市私立磊川華德福實驗教育學校</option>
+	<option value="191503">(191503)臺中市_麗喆學校財團法人臺中市麗喆國民中小學</option>
+	<option value="193303">(193303)臺中市_臺中市立忠明高級中學國中部</option>
+	<option value="193313">(193313)臺中市_臺中市立西苑高級中學國中部</option>
+	<option value="193315">(193315)臺中市_臺中市立東山高級中學國中部</option>
+	<option value="193316">(193316)臺中市_臺中市立惠文高級中學國中部</option>
+	<option value="193501">(193501)臺中市_臺中市立居仁國民中學</option>
+	<option value="193502">(193502)臺中市_臺中市立雙十國民中學</option>
+	<option value="193504">(193504)臺中市_臺中市立崇倫國民中學</option>
+	<option value="193505">(193505)臺中市_臺中市立大德國民中學</option>
+	<option value="193506">(193506)臺中市_臺中市立北新國民中學</option>
+	<option value="193507">(193507)臺中市_臺中市立東峰國民中學</option>
+	<option value="193508">(193508)臺中市_臺中市立黎明國民中學</option>
+	<option value="193509">(193509)臺中市_臺中市立光明國民中學</option>
+	<option value="193510">(193510)臺中市_臺中市立向上國民中學</option>
+	<option value="193511">(193511)臺中市_臺中市立育英國民中學</option>
+	<option value="193512">(193512)臺中市_臺中市立四育國民中學</option>
+	<option value="193514">(193514)臺中市_臺中市立五權國民中學</option>
+	<option value="193516">(193516)臺中市_臺中市立中山國民中學</option>
+	<option value="193517">(193517)臺中市_臺中市立崇德國民中學</option>
+	<option value="193518">(193518)臺中市_臺中市立立人國民中學</option>
+	<option value="193519">(193519)臺中市_臺中市立漢口國民中學</option>
+	<option value="193520">(193520)臺中市_臺中市立安和國民中學</option>
+	<option value="193521">(193521)臺中市_臺中市立至善國民中學</option>
+	<option value="193522">(193522)臺中市_臺中市立萬和國民中學</option>
+	<option value="193523">(193523)臺中市_臺中市立大業國民中學</option>
+	<option value="193524">(193524)臺中市_臺中市立三光國民中學</option>
+	<option value="193525">(193525)臺中市_臺中市立四張犁國民中學</option>
+	<option value="193526">(193526)臺中市_臺中市立福科國民中學</option>
+	<option value="193527">(193527)臺中市_臺中市立大墩國民中學</option>
+	<option value="907999">(907999)臺中市_個報國中</option>
+	<option value="081312">(081312)南投縣_南投縣私立三育高級中學國中部</option>
+	<option value="081313">(081313)南投縣_南投縣私立弘明實驗高級中學國中部</option>
+	<option value="081314">(081314)南投縣_財團法人南投縣私立普台高級中學國中部</option>
+	<option value="081409">(081409)南投縣_同德學校財團法人南投縣同德高級中等學校附設國中部</option>
+	<option value="081502">(081502)南投縣_南投縣私立均頭國民中學</option>
+	<option value="084309">(084309)南投縣_南投縣立旭光高級中學國中部</option>
+	<option value="084501">(084501)南投縣_南投縣立南投國民中學</option>
+	<option value="084502">(084502)南投縣_南投縣立南崗國民中學</option>
+	<option value="084503">(084503)南投縣_南投縣立中興國民中學</option>
+	<option value="084504">(084504)南投縣_南投縣立鳳鳴國民中學</option>
+	<option value="084505">(084505)南投縣_南投縣立埔里國民中學</option>
+	<option value="084506">(084506)南投縣_南投縣立大成國民中學</option>
+	<option value="084507">(084507)南投縣_南投縣立宏仁國民中學</option>
+	<option value="084508">(084508)南投縣_南投縣立草屯國民中學</option>
+	<option value="084510">(084510)南投縣_南投縣立日新國民中學</option>
+	<option value="084511">(084511)南投縣_南投縣立竹山國民中學</option>
+	<option value="084512">(084512)南投縣_南投縣立延和國民中學</option>
+	<option value="084513">(084513)南投縣_南投縣立社寮國民中學</option>
+	<option value="084514">(084514)南投縣_南投縣立瑞竹國民中學</option>
+	<option value="084515">(084515)南投縣_南投縣立集集國民中學</option>
+	<option value="084516">(084516)南投縣_南投縣立名間國民中學</option>
+	<option value="084517">(084517)南投縣_南投縣立三光國民中學</option>
+	<option value="084518">(084518)南投縣_南投縣立鹿谷國民中學</option>
+	<option value="084519">(084519)南投縣_南投縣立瑞峰國民中學</option>
+	<option value="084520">(084520)南投縣_南投縣立中寮國民中學</option>
+	<option value="084521">(084521)南投縣_南投縣立爽文國民中學</option>
+	<option value="084522">(084522)南投縣_南投縣立魚池國民中學</option>
+	<option value="084523">(084523)南投縣_南投縣立明潭國民中學</option>
+	<option value="084524">(084524)南投縣_南投縣立國姓國民中學</option>
+	<option value="084525">(084525)南投縣_南投縣立北梅國民中學</option>
+	<option value="084526">(084526)南投縣_南投縣立北山國民中學</option>
+	<option value="084527">(084527)南投縣_南投縣立水里國民中學</option>
+	<option value="084528">(084528)南投縣_南投縣立民和國民中學</option>
+	<option value="084529">(084529)南投縣_南投縣立信義國民中學</option>
+	<option value="084530">(084530)南投縣_南投縣立同富國民中學</option>
+	<option value="084531">(084531)南投縣_南投縣立仁愛國民中學</option>
+	<option value="084532">(084532)南投縣_南投縣立營北國民中學</option>
+	<option value="801M01">(801M01)大陸地區_東莞台商子弟學校</option>
+	<option value="801M02">(801M02)大陸地區_華東臺商子女學校</option>
+	<option value="801M03">(801M03)大陸地區_上海台商子女學校</option>
+	<option value="000000">(000000)臺中市_測試國中</option>
+
+</select>
+                            <p>
+                                <span style="color: blue;">※可輸入【國中名稱】查詢</span>
+                            </p>
+                            <div style="height: 10px;"></div>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="帳號" class="col-sm-3 control-label" style="text-align: right; line-height: 35px;">帳號：</label>
+                        <div class="col-sm-9">
+                            <div class="input-group" id="show_hide_password">
+                                <input name="ctl00$ctl00$ContentPlaceHolder1$ContentPlaceHolder1$txtACCOUNT" type="text" id="ctl00_ctl00_ContentPlaceHolder1_ContentPlaceHolder1_txtACCOUNT" tabindex="3" class="form-control" size="25" autocomplete="off" />
+                                <div class="input-group-addon">
+                                    <a href="#"><i class="fa fa-eye" aria-hidden="false"></i></a>
+                                </div>
+                            </div>
+                            <span id="ctl00_ctl00_ContentPlaceHolder1_ContentPlaceHolder1_RequiredFieldValidator1" style="color:Red;display:none;"></span>
+                            <p>
+                                <span id="ctl00_ctl00_ContentPlaceHolder1_ContentPlaceHolder1_Label_AccountPrompt" style="color:Blue;">身分證字號</span>
+                            </p>
+                            <div style="height: 10px;"></div>
+                        </div>
+                    </div>
+                    <div id="Div_PW" class="form-group">
+                        <label for="密碼" class="col-sm-3 control-label" style="text-align: right; line-height: 35px;">密碼：</label>
+                        <div class="col-sm-9">
+                            <div class="input-group" id="show_hide_pw">
+                                <input name="ctl00$ctl00$ContentPlaceHolder1$ContentPlaceHolder1$txtPW" type="password" id="ctl00_ctl00_ContentPlaceHolder1_ContentPlaceHolder1_txtPW" tabindex="4" class="form-control" size="25" autocomplete="off" />
+                                <div class="input-group-addon">
+                                    <a href="#"><i class="fa fa-eye-slash" aria-hidden="false"></i></a>
+                                </div>
+                            </div>                            <span id="ctl00_ctl00_ContentPlaceHolder1_ContentPlaceHolder1_RequiredFieldValidator2" style="color:Red;display:none;"></span>
+                            <p>
+                                <span id="ctl00_ctl00_ContentPlaceHolder1_ContentPlaceHolder1_Label_PWPrompt" style="color:Blue;"></span>
+                            </p>
+                            <div style="height: 10px;"></div>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="驗證碼" class="col-sm-3 control-label" style="text-align: right; line-height: 35px;">驗證碼：</label>
+                        <div class="col-sm-9">
+                            <!--利用AJAX更換驗證碼-->
+                            <div id="ctl00_ctl00_ContentPlaceHolder1_ContentPlaceHolder1_UpdatePanel1">
+	
+                                    <input name="ctl00$ctl00$ContentPlaceHolder1$ContentPlaceHolder1$txtValiCode" type="text" id="ctl00_ctl00_ContentPlaceHolder1_ContentPlaceHolder1_txtValiCode" tabindex="5" class="form-control" size="25" autocomplete="off" style="width:50%;display:inline-block" />
+                                        <a onclick="StateBar.showLoading=false;" id="ctl00_ctl00_ContentPlaceHolder1_ContentPlaceHolder1_btnChangeCode" title="更換驗證碼，驗證碼不分大小寫" href="javascript:__doPostBack(&#39;ctl00$ctl00$ContentPlaceHolder1$ContentPlaceHolder1$btnChangeCode&#39;,&#39;&#39;)"><img id="ctl00_ctl00_ContentPlaceHolder1_ContentPlaceHolder1_imgValidateCode" border="0" src="../../../COMM/ValidGraphText.aspx?ARGS=2024/7/5 下午 03:53:44" style="border-width:0px;" /></a>
+                                        <a id="ctl00_ctl00_ContentPlaceHolder1_ContentPlaceHolder1_LinkButton1" href="javascript:__doPostBack(&#39;ctl00$ctl00$ContentPlaceHolder1$ContentPlaceHolder1$LinkButton1&#39;,&#39;&#39;)">重新整理</a>
+                                
+</div>
+                            <span id="ctl00_ctl00_ContentPlaceHolder1_ContentPlaceHolder1_RequiredFieldValidator3" style="color:Red;display:none;"></span>
+                            <p style="color: blue;">(不分大小寫)</p>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <div class="col-sm-offset-3 col-sm-9">
+                            <br>
+                            <!--<input type="submit" name="ctl00$ctl00$ContentPlaceHolder1$ContentPlaceHolder1$btnLogin" value="登入" onclick="StateBar.showLoading=true;WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions(&quot;ctl00$ctl00$ContentPlaceHolder1$ContentPlaceHolder1$btnLogin&quot;, &quot;&quot;, true, &quot;LOGIN&quot;, &quot;&quot;, false, false))" id="ctl00_ctl00_ContentPlaceHolder1_ContentPlaceHolder1_btnLogin" tabindex="6" class="botton01" style="cursor: hand;" />-->
+                            <input type="submit" value="登入" onclick="windows.location.href='meow.html';" class="botton01" />
+                            <div id="ctl00_ctl00_ContentPlaceHolder1_ContentPlaceHolder1_ValidationSummary1" style="color:Red;display:none;">
+
+</div>
+                            &nbsp;&nbsp;<a id="ctl00_ctl00_ContentPlaceHolder1_ContentPlaceHolder1_HyperLink_ForgotPassword" href="../ForgotPassword.aspx" style="color:Blue;display: none;">忘記密碼</a>
+
+                            
+                        </div>
+                    </div>
+                </td>
+                <td style="width: 30%" align="center">
+                    <br>
+                    <table style="border: 1px solid #EBEBEB; background: #ffffff; background: -webkit-gradient(linear, 0 0, 0 bottom, from(#ffffff), to(#EBEBEB)); background: -webkit-linear-gradient(#ffffff, #EBEBEB); background: -moz-linear-gradient(#ffffff, #EBEBEB); background: -ms-linear-gradient(#ffffff, #EBEBEB); background: -o-linear-gradient(#ffffff, #EBEBEB); background: linear-gradient(#ffffff, #EBEBEB); -pie-background: linear-gradient(#ffffff, #EBEBEB);"
+                        cellpadding="20" cellspacing="20">
+                        <tr>
+                            <td>國民教育十二年，適性學習展笑顏<br>
+                                國教十二學習樂，未來看我展特色<br>
+                                優質國教十二年，適性揚才路多元<br>
+                                優質國教十二年，齊心闊步邁向前<br>
+                                邁向國教十二年，開創教育新紀元<br>
+                            </td>
+                        </tr>
+                    </table>
+
+                </td>
+            </tr>
+        </table>
+    </div>
+
+                </div>
+                <!--面板內容↑-->
+
+            </div>
+            <!-- 主內容區塊↑-->
+            <!--end content -->
+            <div id="footer">
+                <!--
+                LoginCopyRight &copy;
+                    All Rights Reserved.  Designed by 政高有限公司.
+                    -->
+                <table width="100%">
+                    <tr align="center">
+                        <td>
+                            <font color="blue">
+                                <span id="ctl00_ctl00_ContentPlaceHolder1_Label_Browser">本作業平台建議使用 Microsoft Edge、Chrome瀏覽器(不支援IE瀏覽器)</span></font>
+                            
+                        </td>
+                    </tr>
+                    <tr align="left">
+                        <td>
+                            =======================================================================================<br>主辦學校：國立埔里高級工業職業學校<br>地址：南投縣埔里鎮中山路一段435號，諮詢電話：049-2982225<br>系統服務廠商：政高有限公司，諮詢電話：04-23919555<br>諮詢服務時間：上班日每天09:00~16:00
+                        </td>
+                    </tr>
+                </table>
+
+
+            </div>
+            <!--end footer-->
+        </div>
+        <!--end container-->
+    
+<script type="text/javascript">
+//<![CDATA[
+var Page_ValidationSummaries =  new Array(document.getElementById("ctl00_ctl00_ContentPlaceHolder1_ContentPlaceHolder1_ValidationSummary1"));
+var Page_Validators =  new Array(document.getElementById("ctl00_ctl00_ContentPlaceHolder1_ContentPlaceHolder1_RequiredFieldValidator1"), document.getElementById("ctl00_ctl00_ContentPlaceHolder1_ContentPlaceHolder1_RequiredFieldValidator2"), document.getElementById("ctl00_ctl00_ContentPlaceHolder1_ContentPlaceHolder1_RequiredFieldValidator3"));
+//]]>
+</script>
+
+<script type="text/javascript">
+//<![CDATA[
+var ctl00_ctl00_ContentPlaceHolder1_ContentPlaceHolder1_RequiredFieldValidator1 = document.all ? document.all["ctl00_ctl00_ContentPlaceHolder1_ContentPlaceHolder1_RequiredFieldValidator1"] : document.getElementById("ctl00_ctl00_ContentPlaceHolder1_ContentPlaceHolder1_RequiredFieldValidator1");
+ctl00_ctl00_ContentPlaceHolder1_ContentPlaceHolder1_RequiredFieldValidator1.controltovalidate = "ctl00_ctl00_ContentPlaceHolder1_ContentPlaceHolder1_txtACCOUNT";
+ctl00_ctl00_ContentPlaceHolder1_ContentPlaceHolder1_RequiredFieldValidator1.focusOnError = "t";
+ctl00_ctl00_ContentPlaceHolder1_ContentPlaceHolder1_RequiredFieldValidator1.errormessage = "請輸入帳號！";
+ctl00_ctl00_ContentPlaceHolder1_ContentPlaceHolder1_RequiredFieldValidator1.display = "None";
+ctl00_ctl00_ContentPlaceHolder1_ContentPlaceHolder1_RequiredFieldValidator1.validationGroup = "LOGIN";
+ctl00_ctl00_ContentPlaceHolder1_ContentPlaceHolder1_RequiredFieldValidator1.evaluationfunction = "RequiredFieldValidatorEvaluateIsValid";
+ctl00_ctl00_ContentPlaceHolder1_ContentPlaceHolder1_RequiredFieldValidator1.initialvalue = "";
+var ctl00_ctl00_ContentPlaceHolder1_ContentPlaceHolder1_RequiredFieldValidator2 = document.all ? document.all["ctl00_ctl00_ContentPlaceHolder1_ContentPlaceHolder1_RequiredFieldValidator2"] : document.getElementById("ctl00_ctl00_ContentPlaceHolder1_ContentPlaceHolder1_RequiredFieldValidator2");
+ctl00_ctl00_ContentPlaceHolder1_ContentPlaceHolder1_RequiredFieldValidator2.controltovalidate = "ctl00_ctl00_ContentPlaceHolder1_ContentPlaceHolder1_txtPW";
+ctl00_ctl00_ContentPlaceHolder1_ContentPlaceHolder1_RequiredFieldValidator2.focusOnError = "t";
+ctl00_ctl00_ContentPlaceHolder1_ContentPlaceHolder1_RequiredFieldValidator2.errormessage = "請輸入密碼！";
+ctl00_ctl00_ContentPlaceHolder1_ContentPlaceHolder1_RequiredFieldValidator2.display = "None";
+ctl00_ctl00_ContentPlaceHolder1_ContentPlaceHolder1_RequiredFieldValidator2.validationGroup = "LOGIN";
+ctl00_ctl00_ContentPlaceHolder1_ContentPlaceHolder1_RequiredFieldValidator2.evaluationfunction = "RequiredFieldValidatorEvaluateIsValid";
+ctl00_ctl00_ContentPlaceHolder1_ContentPlaceHolder1_RequiredFieldValidator2.initialvalue = "";
+var ctl00_ctl00_ContentPlaceHolder1_ContentPlaceHolder1_RequiredFieldValidator3 = document.all ? document.all["ctl00_ctl00_ContentPlaceHolder1_ContentPlaceHolder1_RequiredFieldValidator3"] : document.getElementById("ctl00_ctl00_ContentPlaceHolder1_ContentPlaceHolder1_RequiredFieldValidator3");
+ctl00_ctl00_ContentPlaceHolder1_ContentPlaceHolder1_RequiredFieldValidator3.controltovalidate = "ctl00_ctl00_ContentPlaceHolder1_ContentPlaceHolder1_txtValiCode";
+ctl00_ctl00_ContentPlaceHolder1_ContentPlaceHolder1_RequiredFieldValidator3.focusOnError = "t";
+ctl00_ctl00_ContentPlaceHolder1_ContentPlaceHolder1_RequiredFieldValidator3.errormessage = "請輸入驗證碼，驗證碼不分大小寫！";
+ctl00_ctl00_ContentPlaceHolder1_ContentPlaceHolder1_RequiredFieldValidator3.display = "None";
+ctl00_ctl00_ContentPlaceHolder1_ContentPlaceHolder1_RequiredFieldValidator3.validationGroup = "LOGIN";
+ctl00_ctl00_ContentPlaceHolder1_ContentPlaceHolder1_RequiredFieldValidator3.evaluationfunction = "RequiredFieldValidatorEvaluateIsValid";
+ctl00_ctl00_ContentPlaceHolder1_ContentPlaceHolder1_RequiredFieldValidator3.initialvalue = "";
+var ctl00_ctl00_ContentPlaceHolder1_ContentPlaceHolder1_ValidationSummary1 = document.all ? document.all["ctl00_ctl00_ContentPlaceHolder1_ContentPlaceHolder1_ValidationSummary1"] : document.getElementById("ctl00_ctl00_ContentPlaceHolder1_ContentPlaceHolder1_ValidationSummary1");
+ctl00_ctl00_ContentPlaceHolder1_ContentPlaceHolder1_ValidationSummary1.showmessagebox = "True";
+ctl00_ctl00_ContentPlaceHolder1_ContentPlaceHolder1_ValidationSummary1.showsummary = "False";
+ctl00_ctl00_ContentPlaceHolder1_ContentPlaceHolder1_ValidationSummary1.validationGroup = "LOGIN";
+//]]>
+</script>
+
+
+<script type="text/javascript">
+//<![CDATA[
+
+var Page_ValidationActive = false;
+if (typeof(ValidatorOnLoad) == "function") {
+    ValidatorOnLoad();
+}
+
+function ValidatorOnSubmit() {
+    if (Page_ValidationActive) {
+        return ValidatorCommonOnSubmit();
+    }
+    else {
+        return true;
+    }
+}
+        
+(function(id) {
+    var e = document.getElementById(id);
+    if (e) {
+        e.dispose = function() {
+            Array.remove(Page_ValidationSummaries, document.getElementById(id));
+        }
+        e = null;
+    }
+})('ctl00_ctl00_ContentPlaceHolder1_ContentPlaceHolder1_ValidationSummary1');
+
+theForm.oldSubmit = theForm.submit;
+theForm.submit = WebForm_SaveScrollPositionSubmit;
+
+theForm.oldOnSubmit = theForm.onsubmit;
+theForm.onsubmit = WebForm_SaveScrollPositionOnSubmit;
+WebForm_AutoFocus('ctl00_ctl00_ContentPlaceHolder1_ContentPlaceHolder1_txtACCOUNT');
+document.getElementById('ctl00_ctl00_ContentPlaceHolder1_ContentPlaceHolder1_RequiredFieldValidator1').dispose = function() {
+    Array.remove(Page_Validators, document.getElementById('ctl00_ctl00_ContentPlaceHolder1_ContentPlaceHolder1_RequiredFieldValidator1'));
+}
+
+document.getElementById('ctl00_ctl00_ContentPlaceHolder1_ContentPlaceHolder1_RequiredFieldValidator2').dispose = function() {
+    Array.remove(Page_Validators, document.getElementById('ctl00_ctl00_ContentPlaceHolder1_ContentPlaceHolder1_RequiredFieldValidator2'));
+}
+
+document.getElementById('ctl00_ctl00_ContentPlaceHolder1_ContentPlaceHolder1_RequiredFieldValidator3').dispose = function() {
+    Array.remove(Page_Validators, document.getElementById('ctl00_ctl00_ContentPlaceHolder1_ContentPlaceHolder1_RequiredFieldValidator3'));
+}
+//]]>
+</script>
+</form>
+
+
+
+
+    
+
+</body>
+</html>
